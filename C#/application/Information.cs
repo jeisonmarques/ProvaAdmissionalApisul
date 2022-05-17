@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using ProvaAdmissionalCSharpApisul;
 using OakClass;
 using System.Linq;
+using System.Runtime;
 
 
 namespace OakClass
@@ -14,9 +15,11 @@ namespace OakClass
 
         private static List<int> lessUsed = new List<int>();
         private static List<char> mostFrequented = new List<char>();
-        private static List<char> flowElevator = new List<char>();
+        private static List<char> flowElevatorMaisFrequentado = new List<char>();
+        private static List<char> flowElevatorMenosFrequentado = new List<char>();
         private static List<char> lessFrequented = new List<char>();
-       // private static 
+        private static List<char> periodoMaiorUtilizacao = new List<char>();
+       // private static periodoMaiorUtilizacaoConjuntoElevadores
        // private static 
        // private static 
        // private static 
@@ -85,31 +88,23 @@ namespace OakClass
         /// <summary> Deve retornar uma List contendo o período de maior fluxo de cada um dos elevadores mais frequentados (se houver mais de um). </summary> 
         public List<char> periodoMaiorFluxoElevadorMaisFrequentado()
         {
-            Dictionary<char, Dictionary<char, int>> flow = new Dictionary<char, Dictionary <char, int>>();
-
-             foreach (char f in mostFrequented)
-            {
-                flow.Add(f, new Dictionary <char, int>());
-            }
+            Dictionary<char, Dictionary<char, int>> flow = fluxoElevadorMethod(mostFrequented);
 
             foreach (char f in mostFrequented)
-            {
-                foreach(Answers a in answers){
-                    if (a.Elevador.Equals(f)  && !flow.GetValueOrDefault(f).ContainsKey(a.Turno))
-                    {
-                        flow.GetValueOrDefault(f).Add(a.Turno, 0);
-                    }
+            {  
+                int valor = flow.GetValueOrDefault(f).MaxBy(key => key.Value).Value;
+                
+                foreach (KeyValuePair<char, int> d in flow.GetValueOrDefault(f)){
 
-                    if (a.Elevador.Equals(f))
-                    {
-                        int inc = flow.GetValueOrDefault(f).GetValueOrDefault(a.Turno) + 1;
-                        flow.GetValueOrDefault(f).Remove(a.Turno);
-                        flow.GetValueOrDefault(f).Add(a.Turno, inc);
+                    if(d.Value == valor){
+                        flowElevatorMaisFrequentado.Add(d.Key);
                     }
-                }         
+                }
+                
+                
             }
 
-            return flowElevator;
+            return flowElevatorMaisFrequentado;
         }
 
         /// <summary> Deve retornar uma List contendo o(s) elevador(es) menos frequentado(s). </summary> 
@@ -142,43 +137,86 @@ namespace OakClass
         /// <summary> Deve retornar uma List contendo o período de menor fluxo de cada um dos elevadores menos frequentados (se houver mais de um). </summary> 
         public List<char> periodoMenorFluxoElevadorMenosFrequentado()
         {
-            return null;
+            Dictionary<char, Dictionary<char, int>> flow = fluxoElevadorMethod(lessFrequented);
+
+            foreach (char f in lessFrequented)
+            {  
+                int valor = flow.GetValueOrDefault(f).MinBy(key => key.Value).Value;
+                
+                foreach (KeyValuePair<char, int> d in flow.GetValueOrDefault(f)){
+
+                    if(d.Value == valor){
+                        flowElevatorMenosFrequentado.Add(d.Key);
+                    }
+                }       
+            }
+
+            return flowElevatorMenosFrequentado;
         }
 
         /// <summary> Deve retornar uma List contendo o(s) periodo(s) de maior utilização do conjunto de elevadores. </summary> 
         public List<char> periodoMaiorUtilizacaoConjuntoElevadores()
         {
-            return null;
+            //Contar todos os turnos
+            Dictionary<char, int> periodo = new Dictionary<char, int>();
+
+            foreach(Answers a in answers){
+                
+                if(!periodo.ContainsKey(a.Turno)){
+                    periodo.Add(a.Turno, 1);
+                }else{
+                    int inc = periodo.GetValueOrDefault(a.Turno) + 1;
+                    periodo.Remove(a.Turno);
+                    periodo.Add(a.Turno, inc);
+                }
+            }
+
+            foreach (char p in periodo.Keys)
+            {  
+                int valor = periodo.MaxBy(key => key.Value).Value;
+                
+                foreach (KeyValuePair<char, int> d in periodo){
+
+                    if(d.Value == valor){
+                        if(!periodoMaiorUtilizacao.Contains(d.Key)){
+                            periodoMaiorUtilizacao.Add(d.Key);
+                        }
+                        
+                    }
+                }       
+            }
+            
+            return periodoMaiorUtilizacao;
         }
 
         /// <summary> Deve retornar um float (duas casas decimais) contendo o percentual de uso do elevador A em relação a todos os serviços prestados. </summary> 
         public float percentualDeUsoElevadorA()
         {
-            return 0;
+            return percentualDeUsoElevadorMethod('A');
         }
 
         /// <summary> Deve retornar um float (duas casas decimais) contendo o percentual de uso do elevador B em relação a todos os serviços prestados. </summary> 
         public float percentualDeUsoElevadorB()
         {
-            return 0;
+            return percentualDeUsoElevadorMethod('B');
         }
 
         /// <summary> Deve retornar um float (duas casas decimais) contendo o percentual de uso do elevador C em relação a todos os serviços prestados. </summary> 
         public float percentualDeUsoElevadorC()
         {
-            return 0;
+            return percentualDeUsoElevadorMethod('C');
         }
 
         /// <summary> Deve retornar um float (duas casas decimais) contendo o percentual de uso do elevador D em relação a todos os serviços prestados. </summary> 
         public float percentualDeUsoElevadorD()
         {
-            return 0;
+            return percentualDeUsoElevadorMethod('D');
         }
 
         /// <summary> Deve retornar um float (duas casas decimais) contendo o percentual de uso do elevador E em relação a todos os serviços prestados. </summary> 
         public float percentualDeUsoElevadorE()
         {
-            return 0;
+            return percentualDeUsoElevadorMethod('E');
         }
 
 
@@ -216,6 +254,51 @@ namespace OakClass
             }
             
             return elevatorRecurrence;
+        }
+
+        private Dictionary<char, Dictionary<char, int>> fluxoElevadorMethod(List<char> frequented){
+            Dictionary<char, Dictionary<char, int>> flow = new Dictionary<char, Dictionary <char, int>>();
+
+             foreach (char f in frequented)
+            {
+                flow.Add(f, new Dictionary <char, int>());
+            }
+
+            foreach (char f in frequented)
+            {
+                foreach(Answers a in answers){
+                    if (a.Elevador.Equals(f)  && !flow.GetValueOrDefault(f).ContainsKey(a.Turno))
+                    {
+                        flow.GetValueOrDefault(f).Add(a.Turno, 0);
+                    }
+
+                    if (a.Elevador.Equals(f))
+                    {
+                        int inc = flow.GetValueOrDefault(f).GetValueOrDefault(a.Turno) + 1;
+                        flow.GetValueOrDefault(f).Remove(a.Turno);
+                        flow.GetValueOrDefault(f).Add(a.Turno, inc);
+                    }
+                }         
+            }
+
+            return flow;
+        }
+
+        private float percentualDeUsoElevadorMethod(char c){
+
+            float qtdUse = 0;
+
+            foreach (Answers a in answers)
+            {
+                if(a.Elevador == c){
+                    qtdUse++;
+                }
+            }
+
+            float percentual = (qtdUse*100)/answers.Count();
+            float result = (float)Math.Round(percentual, 2);
+
+            return result;
         }
 
     }
