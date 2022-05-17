@@ -19,11 +19,7 @@ namespace OakClass
         private static List<char> flowElevatorMenosFrequentado = new List<char>();
         private static List<char> lessFrequented = new List<char>();
         private static List<char> periodoMaiorUtilizacao = new List<char>();
-       // private static periodoMaiorUtilizacaoConjuntoElevadores
-       // private static 
-       // private static 
-       // private static 
-        //private static 
+        
 
         public Information(Reading reading, int nFloors)
         {
@@ -39,6 +35,7 @@ namespace OakClass
 
             int menor = floors[0];
 
+            //Procura qual é o menor
             for (int i = 0; i < nFloors; i++)
             {
                 if (menor > floors[i])
@@ -47,6 +44,7 @@ namespace OakClass
                 }
             }
 
+            //Todos que tiveres o mesmo valor são adicionados na lista
             for (int i = 0; i < nFloors; i++)
             {
                 if (menor == floors[i])
@@ -66,6 +64,7 @@ namespace OakClass
             int qtdUse = 0;
             char elevadorMF = ' '; //MF - Mais Frequentado
 
+            //Procuro o elevador mais frequentado comparando seus valores
             foreach (char c in elevatorRecurrence.Keys)
             {
                 if(elevatorRecurrence.GetValueOrDefault(c) > qtdUse){
@@ -74,6 +73,8 @@ namespace OakClass
                 }
             }
 
+            //Para cada elevador vou comparar se seu valor eh igual ao do maior encontado
+            //Se for adiciona na lista, assim pega-se todos os elevadores
             foreach (char c in elevatorRecurrence.Keys)
             {
                 if (elevatorRecurrence.GetValueOrDefault(elevadorMF) == elevatorRecurrence.GetValueOrDefault(c))
@@ -88,12 +89,17 @@ namespace OakClass
         /// <summary> Deve retornar uma List contendo o período de maior fluxo de cada um dos elevadores mais frequentados (se houver mais de um). </summary> 
         public List<char> periodoMaiorFluxoElevadorMaisFrequentado()
         {
+            //Dicionario de turnos e valores
             Dictionary<char, Dictionary<char, int>> flow = fluxoElevadorMethod(mostFrequented);
 
+            
             foreach (char f in mostFrequented)
             {  
+                //A partir da lista dos mais frequentados pega-se o maior valor
                 int valor = flow.GetValueOrDefault(f).MaxBy(key => key.Value).Value;
                 
+                //Para cada key(Turno), compara com o valor encontado anteriormente
+                //Se for igual, adiciona o periodo na lista
                 foreach (KeyValuePair<char, int> d in flow.GetValueOrDefault(f)){
 
                     if(d.Value == valor){
@@ -115,6 +121,7 @@ namespace OakClass
             int qtdUse = int.MaxValue;
             char elevadorMF = ' '; //MF - Menos Frequentado
 
+            //Procuro o elevador menos frequentado comparando seus valores
             foreach (char c in elevatorRecurrence.Keys)
             {
                 if(elevatorRecurrence.GetValueOrDefault(c) < qtdUse){
@@ -123,6 +130,8 @@ namespace OakClass
                 }
             }
 
+            //Para cada elevador compara-se seu valor eh igual ao do menor encontado
+            //Se for adiciona na lista, assim pega-se todos os elevadores
             foreach (char c in elevatorRecurrence.Keys)
             {
                 if (elevatorRecurrence.GetValueOrDefault(elevadorMF) == elevatorRecurrence.GetValueOrDefault(c))
@@ -141,8 +150,11 @@ namespace OakClass
 
             foreach (char f in lessFrequented)
             {  
+                //A partir da lista dos menos frequentados pega-se o maior valor
                 int valor = flow.GetValueOrDefault(f).MinBy(key => key.Value).Value;
                 
+                //Para cada key(Turno), compara com o valor encontado anteriormente
+                //Se for igual, adiciona o periodo na lista
                 foreach (KeyValuePair<char, int> d in flow.GetValueOrDefault(f)){
 
                     if(d.Value == valor){

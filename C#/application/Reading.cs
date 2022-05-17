@@ -8,13 +8,15 @@ namespace OakClass
 {
     public class Reading
     {
-        private List<Answers> answers;
+        private static List<Answers> answers;
 
         public Reading()
         {
             answers = new List<Answers>();
         }
 
+        //Recebe o caminho do arquivo e o desserializa usando framework Newtonsoft.Json
+        //Em caso de erro mostra uma mensagem
         public void ReadingTheAnswers(string input)
         {
 
@@ -22,7 +24,6 @@ namespace OakClass
             {
                 using(StreamReader stream = new StreamReader(input)){
                     string jsonString = stream.ReadToEnd();
-                    //answers = JsonSerializer.Deserialize<List<Answers>>(jsonString);
                     answers = JsonConvert.DeserializeObject<List<Answers>>(jsonString);
                 }
             }
@@ -35,6 +36,7 @@ namespace OakClass
 
         }
 
+        //Retorna a lista de objetos Answers
         public List<Answers> GetAnswers(){
             return answers;
         }
