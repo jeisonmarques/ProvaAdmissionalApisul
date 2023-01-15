@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ProvaAdmissionalCSharpApisul.Data.Infra.WebApi.props" />
+</Project>

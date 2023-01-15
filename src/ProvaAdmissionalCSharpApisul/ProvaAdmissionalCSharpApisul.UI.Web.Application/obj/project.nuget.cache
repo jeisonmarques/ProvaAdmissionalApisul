@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2kgJGJCbRXJOykcNz1O3fPtcT5wYmf02VxtNyDVTCKz8NPyWZ3VdJByOpAcaxjJyKxwyelBoeyPOJN8kmAIwcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web.Application\\ProvaAdmissionalCSharpApisul.UI.Web.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leandro\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

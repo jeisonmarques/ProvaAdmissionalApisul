@@ -1,0 +1,31 @@
+﻿@using Newtonsoft.Json
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+<ul class="nav nav-list">
+    <li class="active">
+        <a>
+            <i class="menu-icon fa fa-tachometer"></i>
+            <span class="menu-text"> Menu </span>
+        </a>
+        <b class="arrow"></b>
+    </li>
+    <li class="">
+        <a href="#" class="dropdown-toggle">
+            <i class="menu-icon"></i>
+            <span class="menu-text">
+                Estatísticas
+            </span>
+            <b class="arrow fa fa-angle-down"></b>
+        </a>
+        <b class="arrow"></b>
+        <ul class="submenu">
+            <li class="">
+                <a href="@Url.ActionLink("Index", "Elevador", new { Area = "Elevador" })">
+                    <i class="menu-icon fa fa-caret-right"></i>
+                    Elevador
+                </a>
+                <b class="arrow"></b>
+            </li>
+        </ul>
+    </li>
+</ul><!-- /.nav-list -->

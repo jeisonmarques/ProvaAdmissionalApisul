@@ -1,0 +1,448 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Data.Infra.WebApi\\ProvaAdmissionalCSharpApisul.Data.Infra.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Application\\ProvaAdmissionalCSharpApisul.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Application\\ProvaAdmissionalCSharpApisul.Application.csproj",
+        "projectName": "ProvaAdmissionalCSharpApisul.Application",
+        "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Application\\ProvaAdmissionalCSharpApisul.Application.csproj",
+        "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Events\\ProvaAdmissionalCSharpApisul.Domain.Events.csproj": {
+                "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Events\\ProvaAdmissionalCSharpApisul.Domain.Events.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Data.Infra.IoC\\ProvaAdmissionalCSharpApisul.Data.Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Data.Infra.IoC\\ProvaAdmissionalCSharpApisul.Data.Infra.IoC.csproj",
+        "projectName": "ProvaAdmissionalCSharpApisul.Data.Infra.IoC",
+        "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Data.Infra.IoC\\ProvaAdmissionalCSharpApisul.Data.Infra.IoC.csproj",
+        "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Data.Infra.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Application\\ProvaAdmissionalCSharpApisul.Application.csproj": {
+                "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Application\\ProvaAdmissionalCSharpApisul.Application.csproj"
+              },
+              "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Core\\ProvaAdmissionalCSharpApisul.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Core\\ProvaAdmissionalCSharpApisul.Domain.Core.csproj"
+              },
+              "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Infra.Data\\ProvaAdmissionalCSharpApisul.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Infra.Data\\ProvaAdmissionalCSharpApisul.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Data.Infra.WebApi\\ProvaAdmissionalCSharpApisul.Data.Infra.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Data.Infra.WebApi\\ProvaAdmissionalCSharpApisul.Data.Infra.WebApi.csproj",
+        "projectName": "ProvaAdmissionalCSharpApisul.Data.Infra.WebApi",
+        "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Data.Infra.WebApi\\ProvaAdmissionalCSharpApisul.Data.Infra.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Data.Infra.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Data.Infra.IoC\\ProvaAdmissionalCSharpApisul.Data.Infra.IoC.csproj": {
+                "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Data.Infra.IoC\\ProvaAdmissionalCSharpApisul.Data.Infra.IoC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions": {
+              "target": "Package",
+              "version": "[0.6.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Core\\ProvaAdmissionalCSharpApisul.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Core\\ProvaAdmissionalCSharpApisul.Domain.Core.csproj",
+        "projectName": "ProvaAdmissionalCSharpApisul.Domain.Core",
+        "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Core\\ProvaAdmissionalCSharpApisul.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Events\\ProvaAdmissionalCSharpApisul.Domain.Events.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Events\\ProvaAdmissionalCSharpApisul.Domain.Events.csproj",
+        "projectName": "ProvaAdmissionalCSharpApisul.Domain.Events",
+        "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Events\\ProvaAdmissionalCSharpApisul.Domain.Events.csproj",
+        "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Events\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Core\\ProvaAdmissionalCSharpApisul.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Core\\ProvaAdmissionalCSharpApisul.Domain.Core.csproj"
+              },
+              "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Infra.Data\\ProvaAdmissionalCSharpApisul.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Infra.Data\\ProvaAdmissionalCSharpApisul.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Infra.Data\\ProvaAdmissionalCSharpApisul.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Infra.Data\\ProvaAdmissionalCSharpApisul.Infra.Data.csproj",
+        "projectName": "ProvaAdmissionalCSharpApisul.Infra.Data",
+        "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Infra.Data\\ProvaAdmissionalCSharpApisul.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Leandro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Core\\ProvaAdmissionalCSharpApisul.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.Domain.Core\\ProvaAdmissionalCSharpApisul.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

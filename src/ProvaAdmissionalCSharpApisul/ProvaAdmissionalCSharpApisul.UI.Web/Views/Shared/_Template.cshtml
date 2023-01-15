@@ -1,0 +1,160 @@
+﻿@{
+    ViewBag.Title = "Grupo APISUL - Prova Admissional";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+
+    <meta name="description" content="overview &amp; stats" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- bootstrap & fontawesome -->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/assets/font-awesome/4.5.0/css/font-awesome.min.css" />
+
+    <!-- page specific plugin styles -->
+    <!-- text fonts -->
+    <link rel="stylesheet" href="~/assets/css/fonts.googleapis.com.css" />
+
+    <!-- ace styles -->
+    <link rel="stylesheet" href="~/assets/css/ace.min.css" class="ace-main-stylesheet" id="main-ace-style" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="~/assets/css/ace-part2.min.css" class="ace-main-stylesheet" />
+    <![endif]-->
+    <link rel="stylesheet" href="~/assets/css/ace-skins.min.css" />
+    <link rel="stylesheet" href="~/assets/css/ace-rtl.min.css" />
+
+    <!--[if lte IE 9]>
+      <link rel="stylesheet" href="~/assets/css/ace-ie.min.css" />
+    <![endif]-->
+
+    <link rel="stylesheet" href="~/assets/css/custom/loading.css" />
+    <link rel="stylesheet" href="~/assets/css/utils/layout.css" />
+
+    @*<link rel="stylesheet" href="~/assets/css/pretty-checkbox.min.css" />*@
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/icheck-material@1.0.1/icheck-material.min.css" />
+    <link type="text/css" rel="stylesheet" href="~/assets/plugins/bootstrap-select/css/bootstrap-select.css" />
+    <link type="text/css" rel="stylesheet" href="~/assets/css/toastr.css">
+
+    @RenderSection("CSS", required: false)
+
+    <!-- inline styles related to this page -->
+    <!-- ace settings handler -->
+    <script src="~/assets/js/ace-extra.min.js"></script>
+
+    <!-- HTML5shiv and Respond.js for IE8 to support HTML5 elements and media queries -->
+    <!--[if lte IE 8]>
+    <script src="~/assets/js/html5shiv.min.js"></script>
+    <script src="~/assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="no-skin">
+
+    <partial name="_Top" />
+
+    <div class="main-container ace-save-state" id="main-container">
+        <script type="text/javascript">
+            try {
+                ace.settings.loadState('main-container')
+            }
+            catch (e) { }
+        </script>
+
+        <partial name="_Sidebar" />
+
+        <div class="main-content">
+            <div class="main-content-inner">
+
+                @if (TempData["Sucesso"] != null)
+                {
+                    <partial name="_Sucesso" />
+                }
+                else if (TempData["Erro"] != null)
+                {
+                    <partial name="_Erro" />
+                }
+
+                @if (TempData["Alerta"] != null)
+                {
+                    <partial name="_Alerta" />
+                }
+                @if (TempData["Informacao"] != null)
+                {
+                    <partial name="_Info" />
+                }
+
+                @RenderBody()
+            </div>
+        </div><!-- /.main-content -->
+
+        <partial name="_Modal" />
+
+        <partial name="_Footer" />
+
+        <div class="loading">
+            <div class="loader"></div>
+            <div class="texto">Aguarde</div>
+        </div>
+
+    </div><!-- /.main-container -->
+    <!-- basic scripts -->
+    <!--[if !IE]> -->
+    <script src="~/assets/js/jquery-2.1.4.min.js"></script>
+
+    <!-- <![endif]-->
+    <!--[if IE]>
+    <script src="~/assets/js/jquery-1.11.3.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+        if ('ontouchstart' in document.documentElement) document.write("<script src='~/assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+    </script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/bootbox.min.js"></script>
+    <script src="~/assets/js/jquery.tmpl.min.js"></script>
+
+    <!-- page specific plugin scripts -->
+    <!--[if lte IE 8]>
+      <script src="~/assets/js/excanvas.min.js"></script>
+    <![endif]-->
+    <!-- ace scripts -->
+    <script src="~/assets/js/ace.min.js"></script>
+    <script src="~/assets/js/ace-elements.min.js"></script>
+    <script src="~/assets/js/ace-extra.min.js"></script>
+    <script type="text/javascript" src="~/assets/plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="~/assets/plugins/bootstrap-select/js/i18n/defaults-pt_BR.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/toastr.min.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function () {
+            // Animate loader off screen
+            $(".loading").fadeOut("slow");
+            //$('#main-container').addClass("slideUp");
+        });
+
+        $(document).submit(function (event) {
+            $(".loading").fadeIn();
+            //$("body").fadeOut("slow")
+        });
+
+        window.addEventListener('load', function () {
+            $(".loading").fadeOut("slow");
+            //$('#main-container').addClass("slideUp");
+        });
+
+        $(".logout").off("click").on("click", function () {
+            $(".loading").fadeIn();
+            //$("body").fadeOut("slow");
+        });
+
+    </script>
+
+    @RenderSection("JS", required: false)
+
+</body>
+</html>
