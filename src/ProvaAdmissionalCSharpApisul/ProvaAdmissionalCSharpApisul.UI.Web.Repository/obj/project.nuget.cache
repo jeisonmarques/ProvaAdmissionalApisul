@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fI3hx7tBeay+K5L5j+AHVdBH92/qrfMPZxZhSEealdDhnSFtS+ewz0BcgLPujOxBdsqezZD04yzpi99pnUpfAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web.Repository\\ProvaAdmissionalCSharpApisul.UI.Web.Infra.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Leandro\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

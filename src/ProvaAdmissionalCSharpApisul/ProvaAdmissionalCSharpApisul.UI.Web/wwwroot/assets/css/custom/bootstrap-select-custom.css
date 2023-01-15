@@ -1,0 +1,31 @@
+﻿.bootstrap-select {
+    max-width: 200px;
+}
+
+    .bootstrap-select .btn {
+        /*background-color: #999999 !important;*/
+        /*border-style: solid;*/
+        /*border-left-width: 3px;*/
+        border-left-color: #ffd800;
+        border-top: none;
+        border-bottom: none;
+        border-right: none;
+        color: black;
+        font-weight: 400;
+        padding: 10px 10px;
+        font-size: 12px;
+        margin-bottom: 5px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 10px;
+    }
+
+    .bootstrap-select .dropdown-menu {
+        margin: 15px 0 0;
+    }
+
+select::-ms-expand {
+    /* for IE 11 */
+    display: none;
+}

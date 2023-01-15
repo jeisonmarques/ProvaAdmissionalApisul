@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ProvaAdmissionalCSharpApisul.UI.Web.Service/1.0.0": {
+        "runtime": {
+          "ProvaAdmissionalCSharpApisul.UI.Web.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProvaAdmissionalCSharpApisul.UI.Web.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

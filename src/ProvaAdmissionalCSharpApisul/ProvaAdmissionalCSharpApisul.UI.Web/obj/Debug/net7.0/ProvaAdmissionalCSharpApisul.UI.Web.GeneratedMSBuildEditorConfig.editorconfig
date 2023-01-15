@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProvaAdmissionalCSharpApisul.UI.Web
+build_property.RootNamespace = ProvaAdmissionalCSharpApisul.UI.Web
+build_property.ProjectDir = C:\Users\Leandro\Source\Repos\ProvaAdmissionalApisul\src\ProvaAdmissionalCSharpApisul\ProvaAdmissionalCSharpApisul.UI.Web\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Leandro\Source\Repos\ProvaAdmissionalApisul\src\ProvaAdmissionalCSharpApisul\ProvaAdmissionalCSharpApisul.UI.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Areas/Elevador/Views/Elevador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWxldmFkb3JcVmlld3NcRWxldmFkb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Areas/Elevador/Views/Elevador/_EstatisticasPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRWxldmFkb3JcVmlld3NcRWxldmFkb3JcX0VzdGF0aXN0aWNhc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Shared/_Alerta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BbGVydGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Shared/_Blank.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CbGFuay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Shared/_Erro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FcnJvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Shared/_Info.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9JbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Shared/_Modal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb2RhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Shared/_Nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Shared/_Sucesso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdWNlc3NvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Shared/_Template.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZW1wbGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/Shared/_Top.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Leandro/Source/Repos/ProvaAdmissionalApisul/src/ProvaAdmissionalCSharpApisul/ProvaAdmissionalCSharpApisul.UI.Web/Views/_VIewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZJZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

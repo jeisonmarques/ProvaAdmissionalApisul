@@ -1,0 +1,10 @@
+*****************************************************************************************************************************************************************
+*														Prova Admissional realizada por Leandro Luiz do Nascimento												*
+*****************************************************************************************************************************************************************
+
+=> Solução de sistema desenvolvida em .Net 7.0;
+=> SQL Server Express para criação de base de dados;
+=> Configurado Migrations para geração de base no primeiro acesso, porém, é necessário alterar o nome da instância no appsettings.json da solução
+   ProvaAdmissionalCSharpApisul.Data.Infra.WebApi;
+=> Solução configurada para startup das duas soluções simultâneamente, ProvaAdmissionalCSharpApisul.Data.Infra.WebApi e ProvaAdmissionalCSharpApisul.UI.Web),
+   através do Visual Studio 2022;

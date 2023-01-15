@@ -1,0 +1,67 @@
+﻿@{
+	Layout = "~/Views/Shared/_Template.cshtml";
+	ViewData["Title"] = "Utilização Elevadores";
+}
+
+@section CSS
+	{
+	<!-- JQuery DataTable Css -->
+	<link type="text/css" rel="stylesheet" href="~/assets/plugins/jquery-datatable/dataTables.bootstrap4.min.css" asp-append-version="true">
+}
+
+<section class="content">
+	<div class="block-header">
+		<div class="col-lg-12 col-md-12 col-sm-12">
+			<ul class="breadcrumb">
+				<li class="breadcrumb-item"><a href="/Home"><i class="zmdi zmdi-home"></i> Home</a></li>
+				<li class="breadcrumb-item"> Elevador</li>
+				<li class="breadcrumb-item active"> Estatísticas</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row clearfix">
+			<div class="col-lg-12">
+				<div class="card">
+					<div class="header">
+						<h2><strong>Estatísticas</strong></h2>
+					</div>
+					<div class="body">
+						<form id="frmUpload" action="/Elevador/Elevador/Upload" method="post" enctype="multipart/form-data" onsubmit="enviarArquivo(this);return false;">
+							<div class="row clearfix">
+								<div class="col-md-2">
+									<label>Realize o upload do arquivo</label>
+								</div>
+								<div class="col-md-4">
+									<input type="file" id="Files" name="Files" />
+								</div>
+								<div class="col-md-2">
+									<button class="btn btn-xs btn-success btn-circle btn-round pull-right" type="submit">
+										<i class="glyphicon glyphicon-upload"></i> Upload
+									</button>
+								</div>
+
+								<div class="col-md-2">
+									<button class="btn btn-xs btn-danger btn-circle btn-round pull-right" type="button" id="btnExcluir">
+										<i class="glyphicon glyphicon-trash"></i> Excluir
+									</button>
+								</div>
+							</div>
+						</form>
+						<hr />
+						<div class="space-14"></div>
+						<div class="row clearfix" id="dvEstatisticas">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+@section JS
+	{
+	<script type="text/javascript" src="~/assets/bundles/datatablescripts.bundle.js" asp-append-version="true"></script>
+	<script type="text/javascript" src="~/assets/js/pages/tables/jquery-datatable.js" asp-append-version="true"></script>
+	<script type="text/javascript" src="~/assets/js/custom/elevador/index.js" asp-append-version="true"></script>
+}

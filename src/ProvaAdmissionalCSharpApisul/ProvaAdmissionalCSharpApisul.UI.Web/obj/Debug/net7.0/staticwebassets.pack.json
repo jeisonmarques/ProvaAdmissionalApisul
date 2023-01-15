@@ -1,0 +1,2473 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\countTo.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bundles\\countTo.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\datatablescripts.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bundles\\datatablescripts.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\flotchartsscripts.bundle.html",
+      "PackagePath": "staticwebassets\\assets\\bundles\\flotchartsscripts.bundle.html"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\footable.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bundles\\footable.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\fullcalendarscripts.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bundles\\fullcalendarscripts.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\jvectormap.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bundles\\jvectormap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\knob.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bundles\\knob.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\libscripts.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bundles\\libscripts.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\mainscripts.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bundles\\mainscripts.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\morrisscripts.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bundles\\morrisscripts.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\sparkline.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bundles\\sparkline.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\bundles\\vendorscripts.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\bundles\\vendorscripts.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\ace-ie.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace-ie.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\ace-part2.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace-part2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\ace-rtl.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\ace-skins.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace-skins.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\ace.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ace.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\authentication.css",
+      "PackagePath": "staticwebassets\\assets\\css\\authentication.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\blog.css",
+      "PackagePath": "staticwebassets\\assets\\css\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\bootstrap-colorpicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-colorpicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\bootstrap-datepicker3.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-datepicker3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\bootstrap-duallistbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-duallistbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\bootstrap-editable.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-editable.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\bootstrap-multiselect.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-multiselect.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\chatapp.css",
+      "PackagePath": "staticwebassets\\assets\\css\\chatapp.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\chosen.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\chosen.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\color_skins.css",
+      "PackagePath": "staticwebassets\\assets\\css\\color_skins.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\colorbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\colorbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\custom\\bootstrap-select-custom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\custom\\bootstrap-select-custom.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\custom\\loading.css",
+      "PackagePath": "staticwebassets\\assets\\css\\custom\\loading.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\daterangepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\daterangepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dropzone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\ecommerce.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ecommerce.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\fonts.googleapis.com.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts.googleapis.com.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\hm-style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\hm-style.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\images\\meteorshower2.jpg",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\meteorshower2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\images\\pattern.jpg",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\pattern.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\inbox.css",
+      "PackagePath": "staticwebassets\\assets\\css\\inbox.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\jquery-ui.custom.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.custom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\jquery.gritter.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery.gritter.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\prettify.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\prettify.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\pretty-checkbox.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\pretty-checkbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\rtl.css",
+      "PackagePath": "staticwebassets\\assets\\css\\rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\timeline.css",
+      "PackagePath": "staticwebassets\\assets\\css\\timeline.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\toastr.css",
+      "PackagePath": "staticwebassets\\assets\\css\\toastr.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\ui.jqgrid.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ui.jqgrid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\css\\utils\\layout.css",
+      "PackagePath": "staticwebassets\\assets\\css\\utils\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\font-awesome\\4.5.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\4.5.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\assets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\nucleo-outline-2.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-outline-2.html"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\nucleo-outline-3.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-outline-3.html"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\nucleo-outline-4.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-outline-4.html"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\fonts\\nucleo-outline.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-outline.html"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\avatars\\avatar.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\avatars\\avatar1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar1.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\avatars\\avatar2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar2.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\avatars\\avatar3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar3.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\avatars\\avatar4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar4.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\avatars\\avatar5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\avatar5.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\avatars\\profile-pic.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\profile-pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\avatars\\user.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatars\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\background_image.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background_image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\background_image1.jpeg",
+      "PackagePath": "staticwebassets\\assets\\images\\background_image1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\05-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\05-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\06-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\06-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\07-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\07-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\08-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\08-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\09-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\09-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\10-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\10-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\11-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\11-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\12-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\12-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\13-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\13-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\blog-page-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-page-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\blog-page-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-page-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\blog-page-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-page-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\blog\\blog-page-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-page-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\bootstrap-colorpicker\\alpha-horizontal.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bootstrap-colorpicker\\alpha-horizontal.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\bootstrap-colorpicker\\alpha.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bootstrap-colorpicker\\alpha.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\bootstrap-colorpicker\\hue-horizontal.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bootstrap-colorpicker\\hue-horizontal.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\bootstrap-colorpicker\\hue.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bootstrap-colorpicker\\hue.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\bootstrap-colorpicker\\saturation.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bootstrap-colorpicker\\saturation.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\10.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\10.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\11.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\12.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\12.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\13.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\13.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\14.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\14.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\15.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\15.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\8.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\ecommerce\\9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\ecommerce\\9.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\email\\email1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\email\\email1.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\email\\email2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\email\\email2.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\email\\email3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\email\\email3.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\email\\email4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\email\\email4.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\image-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\image-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\image-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\image-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\image-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\image-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\thumb-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\gallery\\thumb-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gallery\\thumb-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image-gallery\\thumb\\thumb-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image-gallery\\thumb\\thumb-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\image4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\image4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\lg\\avatar1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\lg\\avatar1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\lg\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\lg\\avatar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\lg\\avatar3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\lg\\avatar3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\lg\\avatar4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\lg\\avatar4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\lg\\avatar5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\lg\\avatar5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\lg\\avatar6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\lg\\avatar6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\login.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\login.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\logo_grupo_apisul.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo_grupo_apisul.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\placeholder\\165x90.png",
+      "PackagePath": "staticwebassets\\assets\\images\\placeholder\\165x90.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\placeholder\\255x150.png",
+      "PackagePath": "staticwebassets\\assets\\images\\placeholder\\255x150.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\placeholder\\530x270.png",
+      "PackagePath": "staticwebassets\\assets\\images\\placeholder\\530x270.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\placeholder\\550x280.png",
+      "PackagePath": "staticwebassets\\assets\\images\\placeholder\\550x280.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\profile_av.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\profile_av.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\sm\\avatar1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sm\\avatar1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\sm\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sm\\avatar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\sm\\avatar3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sm\\avatar3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\sm\\avatar4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sm\\avatar4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\sm\\avatar5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sm\\avatar5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\sm\\avatar6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sm\\avatar6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\tecnologia_em_saude.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\tecnologia_em_saude.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\weather\\cloudy.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\weather\\cloudy.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\weather\\rain.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\weather\\rain.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\weather\\sky.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\weather\\sky.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\weather\\summer.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\weather\\summer.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\weather\\wind.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\weather\\wind.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\xs\\avatar1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\xs\\avatar1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\xs\\avatar10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\xs\\avatar10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\xs\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\xs\\avatar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\xs\\avatar3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\xs\\avatar3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\xs\\avatar4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\xs\\avatar4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\xs\\avatar5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\xs\\avatar5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\xs\\avatar6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\xs\\avatar6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\xs\\avatar7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\xs\\avatar7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\xs\\avatar8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\xs\\avatar8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\images\\xs\\avatar9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\xs\\avatar9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\ace-editable.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace-editable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\ace-elements.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace-elements.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\ace-extra.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace-extra.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\ace.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ace.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\autosize.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\autosize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootbox.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootstrap-colorpicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-colorpicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootstrap-editable.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-editable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootstrap-markdown.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-markdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootstrap-multiselect.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-multiselect.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootstrap-tag.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-tag.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootstrap-timepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-timepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootstrap-wysiwyg.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-wysiwyg.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\buttons.flash.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\chosen.jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\chosen.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\custom\\elevador\\index.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom\\elevador\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\dataTables.select.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dataTables.select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\daterangepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\daterangepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\excanvas.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\excanvas.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\grid.locale-en.js",
+      "PackagePath": "staticwebassets\\assets\\js\\grid.locale-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\holder.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\holder.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\html5shiv.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\html5shiv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jGravity.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jGravity.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery-2.1.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-2.1.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery-additional-methods.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery-maskmoney.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-maskmoney.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery-typeahead.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-typeahead.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery-ui.custom.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.bootstrap-duallistbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.bootstrap-duallistbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.colorbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.colorbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.easypiechart.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.easypiechart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.flot.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.flot.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.flot.pie.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.flot.pie.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.flot.resize.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.flot.resize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.gritter.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.gritter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.hotkeys.index.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.hotkeys.index.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.inputlimiter.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.inputlimiter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.jqGrid.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.jqGrid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.knob.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.knob.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.maskedinput.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.maskedinput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.mobile.custom.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.mobile.custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.nestable.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nestable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.raty.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.raty.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.sparkline.index.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.sparkline.index.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.tmpl.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.tmpl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.ui.touch-punch.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.ui.touch-punch.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\markdown.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\markdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\blog\\blog.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\blog\\blog.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\calendar\\calendar.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\calendar\\calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\cards\\basic.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\cards\\basic.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\charts\\chartjs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\charts\\chartjs.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\charts\\flot.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\charts\\flot.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\charts\\jquery-knob.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\charts\\jquery-knob.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\charts\\jquery-knob.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\charts\\jquery-knob.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\charts\\morris.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\charts\\morris.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\charts\\polar_area_chart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\charts\\polar_area_chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\charts\\sparkline.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\charts\\sparkline.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\ecommerce.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\ecommerce.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\forms\\advanced-form-elements.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\forms\\advanced-form-elements.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\forms\\basic-form-elements.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\forms\\basic-form-elements.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\forms\\editors.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\forms\\editors.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\forms\\form-validation.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\forms\\form-validation.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\forms\\form-wizard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\forms\\form-wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\index.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\index2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\index2.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\maps\\google.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\maps\\google.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\maps\\jvectormap.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\maps\\jvectormap.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\medias\\image-gallery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\medias\\image-gallery.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\rtl.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\rtl.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\tables\\editable-table.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\tables\\editable-table.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\tables\\footable.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\tables\\footable.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\tables\\jquery-datatable.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\tables\\jquery-datatable.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\ui\\dialogs.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\ui\\dialogs.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\ui\\notifications.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\ui\\notifications.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\ui\\range-sliders.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\ui\\range-sliders.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\ui\\sortable-nestable.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\ui\\sortable-nestable.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\pages\\widgets\\infobox\\infobox-1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pages\\widgets\\infobox\\infobox-1.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\prettify.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\prettify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\respond.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\respond.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\spin.js",
+      "PackagePath": "staticwebassets\\assets\\js\\spin.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\spinbox.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\spinbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\toastr.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\toastr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\tree.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\tree.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\utils\\dataTableRender.js",
+      "PackagePath": "staticwebassets\\assets\\js\\utils\\dataTableRender.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\js\\wizard.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wizard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\animate-css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\animate-css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-colorpicker\\css\\bootstrap-colorpicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\alpha-horizontal.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\alpha-horizontal.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\alpha.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\alpha.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\hue-horizontal.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\hue-horizontal.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\hue.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\hue.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\saturation.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-colorpicker\\img\\bootstrap-colorpicker\\saturation.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-colorpicker\\js\\bootstrap-colorpicker.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-colorpicker\\js\\bootstrap-colorpicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.css.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.standalone.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.standalone.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.standalone.css.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.standalone.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.standalone.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker.standalone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.css.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.standalone.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.standalone.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.standalone.css.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.standalone.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.standalone.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\css\\bootstrap-datepicker3.standalone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\js\\bootstrap-datepicker.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\js\\bootstrap-datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker-en-CA.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker-en-CA.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ar-tn.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ar-tn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ar.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.az.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.az.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.bg.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.bg.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.bn.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.bn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.br.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.br.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.bs.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.bs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ca.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ca.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.cs.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.cs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.cy.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.cy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.da.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.da.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.de.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.de.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.el.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.el.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-AU.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-AU.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-CA.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-CA.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-GB.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-GB.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-IE.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-IE.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-NZ.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-NZ.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-ZA.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.en-ZA.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.eo.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.eo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.es.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.es.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.et.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.et.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.eu.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.eu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.fa.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.fa.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.fi.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.fi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.fo.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.fo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.fr-CH.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.fr-CH.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.fr.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.fr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.gl.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.gl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.he.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.he.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.hi.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.hi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.hr.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.hr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.hu.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.hu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.hy.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.hy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.id.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.id.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.is.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.is.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.it-CH.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.it-CH.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.it.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.it.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ja.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ja.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ka.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ka.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.kh.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.kh.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.kk.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.kk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.km.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.km.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ko.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ko.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.kr.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.kr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.lt.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.lt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.lv.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.lv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.me.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.me.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.mk.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.mk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.mn.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.mn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ms.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ms.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.nl-BE.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.nl-BE.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.nl.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.nl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.no.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.no.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.oc.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.oc.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.pl.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.pl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.pt-BR.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.pt-BR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.pt.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.pt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ro.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ro.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.rs-latin.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.rs-latin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.rs.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.rs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ru.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ru.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.si.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.si.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sk.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sl.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sq.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sq.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sr-latin.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sr-latin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sr.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sv.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sw.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.sw.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ta.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.ta.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.tg.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.tg.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.th.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.th.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.tk.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.tk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.tr.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.tr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.uk.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.uk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.uz-cyrl.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.uz-cyrl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.uz-latn.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.uz-latn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.vi.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.vi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.zh-CN.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.zh-CN.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.zh-TW.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-datepicker\\dist\\locales\\bootstrap-datepicker.zh-TW.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-notify\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-notify\\bootstrap-notify.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\css\\bootstrap-select.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\css\\bootstrap-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\css\\bootstrap-select.css.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\css\\bootstrap-select.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\css\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\bootstrap-select.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\bootstrap-select.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\bootstrap-select.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\bootstrap-select.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\bootstrap-select.min.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\bootstrap-select.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-am_ET.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-am_ET.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-am_ET.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-am_ET.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-am_ET.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-am_ET.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ar_AR.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ar_AR.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ar_AR.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ar_AR.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ar_AR.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ar_AR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-bg_BG.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-bg_BG.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-bg_BG.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-bg_BG.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-bg_BG.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-bg_BG.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-cs_CZ.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-cs_CZ.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-cs_CZ.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-cs_CZ.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-cs_CZ.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-cs_CZ.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-da_DK.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-da_DK.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-da_DK.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-da_DK.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-da_DK.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-da_DK.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-de_DE.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-de_DE.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-de_DE.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-de_DE.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-de_DE.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-de_DE.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-en_US.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-en_US.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-en_US.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-en_US.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-en_US.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-en_US.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_CL.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_CL.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_CL.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_CL.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_CL.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_CL.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_ES.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_ES.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_ES.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_ES.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_ES.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-es_ES.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-et_EE.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-et_EE.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-et_EE.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-et_EE.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-et_EE.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-et_EE.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-eu.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-eu.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-eu.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-eu.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-eu.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-eu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fa_IR.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fa_IR.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fa_IR.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fa_IR.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fa_IR.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fa_IR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fi_FI.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fi_FI.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fi_FI.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fi_FI.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fi_FI.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fi_FI.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fr_FR.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fr_FR.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fr_FR.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fr_FR.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fr_FR.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-fr_FR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hr_HR.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hr_HR.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hr_HR.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hr_HR.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hr_HR.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hr_HR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hu_HU.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hu_HU.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hu_HU.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hu_HU.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hu_HU.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-hu_HU.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-id_ID.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-id_ID.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-id_ID.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-id_ID.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-id_ID.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-id_ID.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-it_IT.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-it_IT.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-it_IT.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-it_IT.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-it_IT.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-it_IT.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ja_JP.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ja_JP.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ja_JP.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ja_JP.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ja_JP.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ja_JP.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-kh_KM.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-kh_KM.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-kh_KM.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-kh_KM.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-kh_KM.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-kh_KM.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ko_KR.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ko_KR.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ko_KR.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ko_KR.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ko_KR.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ko_KR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lt_LT.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lt_LT.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lt_LT.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lt_LT.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lt_LT.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lt_LT.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lv_LV.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lv_LV.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lv_LV.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lv_LV.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lv_LV.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-lv_LV.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nb_NO.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nb_NO.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nb_NO.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nb_NO.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nb_NO.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nb_NO.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nl_NL.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nl_NL.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nl_NL.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nl_NL.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nl_NL.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-nl_NL.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pl_PL.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pl_PL.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pl_PL.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pl_PL.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pl_PL.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pl_PL.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_BR.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_BR.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_BR.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_BR.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_BR.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_BR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_PT.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_PT.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_PT.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_PT.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_PT.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-pt_PT.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ro_RO.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ro_RO.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ro_RO.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ro_RO.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ro_RO.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ro_RO.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ru_RU.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ru_RU.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ru_RU.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ru_RU.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ru_RU.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ru_RU.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sk_SK.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sk_SK.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sk_SK.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sk_SK.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sk_SK.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sk_SK.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sl_SI.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sl_SI.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sl_SI.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sl_SI.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sl_SI.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sl_SI.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sr_SP.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sr_SP.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sr_SP.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sr_SP.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sr_SP.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sr_SP.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sv_SE.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sv_SE.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sv_SE.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sv_SE.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sv_SE.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-sv_SE.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-th_TH.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-th_TH.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-th_TH.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-th_TH.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-th_TH.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-th_TH.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-tr_TR.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-tr_TR.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-tr_TR.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-tr_TR.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-tr_TR.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-tr_TR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ua_UA.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ua_UA.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ua_UA.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ua_UA.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ua_UA.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-ua_UA.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-vi_VN.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-vi_VN.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-vi_VN.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-vi_VN.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-vi_VN.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-vi_VN.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_CN.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_CN.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_CN.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_CN.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_CN.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_CN.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_TW.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_TW.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_TW.js.map",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_TW.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_TW.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-select\\js\\i18n\\defaults-zh_TW.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap-tagsinput\\bootstrap-tagsinput.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "PackagePath": "staticwebassets\\assets\\plugins\\bootstrap\\fonts\\glyphicons-halflings-regulard41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\chartjs\\Chart.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\chartjs\\Chart.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\chartjs\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\chartjs\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\chartjs\\polar_area_chart.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\chartjs\\polar_area_chart.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\dropzone\\dropzone.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\dropzone\\dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\editable-table\\mindmup-editabletable.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\editable-table\\mindmup-editabletable.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\footable-bootstrap\\css\\footable.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\footable-bootstrap\\css\\footable.bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\footable-bootstrap\\css\\footable.standalone.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\footable-bootstrap\\css\\footable.standalone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\fullcalendar\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\fullcalendar\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\gmaps\\gmaps.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\gmaps\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\ion-rangeslider\\css\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\ion-rangeslider\\css\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\ion-rangeslider\\css\\ion.rangeSlider.skinFlat.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\ion-rangeslider\\css\\ion.rangeSlider.skinFlat.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\ion-rangeslider\\img\\sprite-skin-flat.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\ion-rangeslider\\img\\sprite-skin-flat.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\ion-rangeslider\\js\\ion.rangeSlider.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\ion-rangeslider\\js\\ion.rangeSlider.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-datatable\\buttons\\buttons.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-datatable\\buttons\\buttons.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-datatable\\buttons\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-datatable\\buttons\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-datatable\\buttons\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-datatable\\buttons\\buttons.flash.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-datatable\\buttons\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-datatable\\buttons\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-datatable\\buttons\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-datatable\\buttons\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-datatable\\buttons\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-datatable\\buttons\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-datatable\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-datatable\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-inputmask\\jquery.inputmask.bundle.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-inputmask\\jquery.inputmask.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-knob\\jquery.knob.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-knob\\jquery.knob.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-maskmoney\\jquery.maskMoney.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-maskmoney\\jquery.maskMoney.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-maskmoney\\jquery.maskMoney.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-maskmoney\\jquery.maskMoney.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-sparkline\\jquery.sparkline.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-sparkline\\jquery.sparkline.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-spinner\\css\\bootstrap-spinner.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-spinner\\css\\bootstrap-spinner.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-spinner\\js\\jquery.spinner.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-spinner\\js\\jquery.spinner.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-steps\\jquery.steps.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-steps\\jquery.steps.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jquery-validation\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jquery-validation\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jvectormap\\jquery-jvectormap-2.0.3.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jvectormap\\jquery-jvectormap-2.0.3.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jvectormap\\jquery-jvectormap-2.0.3.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jvectormap\\jquery-jvectormap-2.0.3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jvectormap\\jquery-jvectormap-au-mill.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jvectormap\\jquery-jvectormap-au-mill.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jvectormap\\jquery-jvectormap-in-mill.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jvectormap\\jquery-jvectormap-in-mill.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jvectormap\\jquery-jvectormap-uk-mill-en.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jvectormap\\jquery-jvectormap-uk-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jvectormap\\jquery-jvectormap-us-aea-en.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jvectormap\\jquery-jvectormap-us-aea-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\jvectormap\\jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\jvectormap\\jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\light-gallery\\css\\lightgallery.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\light-gallery\\css\\lightgallery.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\light-gallery\\fonts\\lgd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\plugins\\light-gallery\\fonts\\lgd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\light-gallery\\fonts\\lgd641.eot",
+      "PackagePath": "staticwebassets\\assets\\plugins\\light-gallery\\fonts\\lgd641.eot"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\light-gallery\\fonts\\lgd641.svg",
+      "PackagePath": "staticwebassets\\assets\\plugins\\light-gallery\\fonts\\lgd641.svg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\light-gallery\\fonts\\lgd641.ttf",
+      "PackagePath": "staticwebassets\\assets\\plugins\\light-gallery\\fonts\\lgd641.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\light-gallery\\fonts\\lgd641.woff",
+      "PackagePath": "staticwebassets\\assets\\plugins\\light-gallery\\fonts\\lgd641.woff"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\light-gallery\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\plugins\\light-gallery\\img\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\light-gallery\\img\\video-play.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\light-gallery\\img\\video-play.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\light-gallery\\img\\vimeo-play.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\light-gallery\\img\\vimeo-play.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\light-gallery\\img\\youtube-play.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\light-gallery\\img\\youtube-play.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\light-gallery\\js\\lightgallery-all.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\light-gallery\\js\\lightgallery-all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\momentjs\\moment.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\momentjs\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\morrisjs\\morris.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\morrisjs\\morris.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\morrisjs\\morris.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\morrisjs\\morris.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\multi-select\\css\\multi-select.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\multi-select\\css\\multi-select.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\multi-select\\img\\switch.png",
+      "PackagePath": "staticwebassets\\assets\\plugins\\multi-select\\img\\switch.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\multi-select\\js\\jquery.multi-select.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\multi-select\\js\\jquery.multi-select.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\nestable\\jquery-nestable.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\nestable\\jquery-nestable.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\nestable\\jquery.nestable.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\nestable\\jquery.nestable.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\nouislider\\nouislider.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\nouislider\\nouislider.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\nouislider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\nouislider\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\sweetalert\\sweetalert.css",
+      "PackagePath": "staticwebassets\\assets\\plugins\\sweetalert\\sweetalert.css"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\plugins\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Source\\Repos\\ProvaAdmissionalApisul\\src\\ProvaAdmissionalCSharpApisul\\ProvaAdmissionalCSharpApisul.UI.Web\\wwwroot\\assets\\swf\\flashExport.swf",
+      "PackagePath": "staticwebassets\\assets\\swf\\flashExport.swf"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ProvaAdmissionalCSharpApisul.UI.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ProvaAdmissionalCSharpApisul.UI.Web.props",
+      "PackagePath": "build\\ProvaAdmissionalCSharpApisul.UI.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ProvaAdmissionalCSharpApisul.UI.Web.props",
+      "PackagePath": "buildMultiTargeting\\ProvaAdmissionalCSharpApisul.UI.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ProvaAdmissionalCSharpApisul.UI.Web.props",
+      "PackagePath": "buildTransitive\\ProvaAdmissionalCSharpApisul.UI.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
