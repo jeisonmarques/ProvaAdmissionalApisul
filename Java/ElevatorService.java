@@ -54,14 +54,89 @@ public class ElevatorService implements IElevatorService {
 
     @Override
     public List<Character> elevadorMaisFrequentado() {
+
+        var repo = _repository.StringJsonStream();
+
+        InputResponse[] response = new Gson().fromJson(repo, InputResponse[].class);
+        List<InputResponse> list = new ArrayList<>(Arrays.asList(response));
       
-        return null;
+        Map<Character, Integer> elevatorCount = new HashMap<>();
+        for (InputResponse iresp : list) {
+            String elevator = iresp.getElevator();
+            char elevatorChar = elevator.charAt(0);
+            if (elevatorCount.containsKey(elevatorChar)) {
+                elevatorCount.put(elevatorChar, elevatorCount.get(elevatorChar) + 1);
+            } else {
+                elevatorCount.put(elevatorChar, 1);
+            }
+        }
+
+        int maxCount = 0;
+        char elevatorMoreUsed = ' ';
+
+        for (Map.Entry<Character, Integer> entry : elevatorCount.entrySet()) {
+            if (entry.getValue() > maxCount) {
+                maxCount = entry.getValue();
+                elevatorMoreUsed = entry.getKey();
+            }
+        }
+
+        List<Character> result = new ArrayList<>();
+        result.add(elevatorMoreUsed);
+        return result;
+
     }
 
     @Override
     public List<Character> periodoMaiorFluxoElevadorMaisFrequentado() {
-        // TODO Auto-generated method stub
-        return null;
+        var repo = _repository.StringJsonStream();
+
+        InputResponse[] response = new Gson().fromJson(repo, InputResponse[].class);
+        List<InputResponse> list = new ArrayList<>(Arrays.asList(response));
+      
+        HashMap<String, HashMap<String, Integer>> elevatorShiftFlow = new HashMap<>();
+
+        for (InputResponse resp : list) {
+            String elevator = resp.getElevator();
+            String shft = resp.getShift();
+
+            if (!elevatorShiftFlow.containsKey(elevator)) {
+                elevatorShiftFlow.put(elevator, new HashMap<String, Integer>());
+            }
+
+            HashMap<String, Integer> shftCont = elevatorShiftFlow.get(elevator);
+            if (!shftCont.containsKey(shft)) {
+                shftCont.put(shft, 0);
+            }
+            shftCont.put(shft, shftCont.get(shft) + 1);
+        }
+
+        String elevatorMaisFreq = "";
+        int maxCount = 0;
+        for (String elevator : elevatorShiftFlow.keySet()) {
+            int count = (int) list.stream().filter(resp -> resp.getElevator().equals(elevator)).count();
+            if (count > maxCount) {
+                maxCount = count;
+                elevatorMaisFreq = elevator;
+            }
+        }
+
+        HashMap<String, Integer> periodCount = elevatorShiftFlow.get(elevatorMaisFreq);
+        String shftMaisFreq = "";
+        int shftMaximus = 0;
+        for (String period : periodCount.keySet()) {
+            int count = periodCount.get(period);
+            if (count > shftMaximus) {
+                shftMaximus = count;
+                shftMaisFreq = period;
+            }
+        }
+
+        List<Character> shftChar = new ArrayList<>();
+        for (char c : shftMaisFreq.toCharArray()) {
+            shftChar.add(c);
+        }
+        return shftChar;
     }
 
     @Override
