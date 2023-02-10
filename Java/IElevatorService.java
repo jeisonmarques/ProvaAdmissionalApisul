@@ -34,5 +34,4 @@ public interface IElevatorService {
 	
 	/** Deve retornar um float (duas casas decimais) contendo o percentual de uso do elevador E em relação a todos os serviços prestados. */
 	float percentualDeUsoElevadorE();
-
 }

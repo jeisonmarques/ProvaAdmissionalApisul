@@ -18,14 +18,30 @@ public class ElevatorService implements IElevatorService {
         _repository = repository;
     }
 
-    @Override
-    public List<Integer> andarMenosUtilizado() {
-        
+    private List<InputResponse> InputRepository() {
         var repo = _repository.StringJsonStream();
 
         InputResponse[] response = new Gson().fromJson(repo, InputResponse[].class);
         List<InputResponse> list = new ArrayList<>(Arrays.asList(response));
 
+        return list;
+    }
+
+    private float CalculateElevatorUsagePercentual(String elevator) {
+        List<InputResponse> list = InputRepository();
+        
+        int counter = 0;
+        int lenght = list.size();
+        
+        for (InputResponse iresp : list) {
+            if (iresp.getElevator().equals(elevator)) {
+                counter++;
+            }
+        }
+        return (float) counter / lenght * 100;
+    }
+    
+    private Map<Integer, Integer> FloorCounter(List<InputResponse> list) {
         Map<Integer, Integer> floorCount = new HashMap<Integer, Integer>();
 
         for (InputResponse iresp : list) {
@@ -36,6 +52,29 @@ public class ElevatorService implements IElevatorService {
                 floorCount.put(level, 1);
             }
         }
+        return floorCount;
+    }
+
+    private Map<Character, Integer> ElevatorCounter(List<InputResponse> list) {
+        Map<Character, Integer> elevatorCount = new HashMap<>();
+        for (InputResponse iresp : list) {
+            String elevator = iresp.getElevator();
+            char elevatorChar = elevator.charAt(0);
+            if (elevatorCount.containsKey(elevatorChar)) {
+                elevatorCount.put(elevatorChar, elevatorCount.get(elevatorChar) + 1);
+            } else {
+                elevatorCount.put(elevatorChar, 1);
+            }
+        }
+        return elevatorCount;
+    }
+    
+    @Override
+    public List<Integer> andarMenosUtilizado() {
+        
+        List<InputResponse> list = InputRepository();
+
+        Map<Integer, Integer> floorCount = FloorCounter(list);
 
         int minimusCount = Integer.MAX_VALUE;
         for (int countage : floorCount.values()) {
@@ -56,21 +95,9 @@ public class ElevatorService implements IElevatorService {
     @Override
     public List<Character> elevadorMaisFrequentado() {
 
-        var repo = _repository.StringJsonStream();
-
-        InputResponse[] response = new Gson().fromJson(repo, InputResponse[].class);
-        List<InputResponse> list = new ArrayList<>(Arrays.asList(response));
+        List<InputResponse> list = InputRepository();
       
-        Map<Character, Integer> elevatorCount = new HashMap<>();
-        for (InputResponse iresp : list) {
-            String elevator = iresp.getElevator();
-            char elevatorChar = elevator.charAt(0);
-            if (elevatorCount.containsKey(elevatorChar)) {
-                elevatorCount.put(elevatorChar, elevatorCount.get(elevatorChar) + 1);
-            } else {
-                elevatorCount.put(elevatorChar, 1);
-            }
-        }
+        Map<Character, Integer> elevatorCount = ElevatorCounter(list);
 
         int maxCount = 0;
         char elevatorMoreUsed = ' ';
@@ -90,10 +117,7 @@ public class ElevatorService implements IElevatorService {
 
     @Override
     public List<Character> periodoMaiorFluxoElevadorMaisFrequentado() {
-        var repo = _repository.StringJsonStream();
-
-        InputResponse[] response = new Gson().fromJson(repo, InputResponse[].class);
-        List<InputResponse> list = new ArrayList<>(Arrays.asList(response));
+        List<InputResponse> list = InputRepository();
       
         HashMap<String, HashMap<String, Integer>> elevatorShiftFlow = new HashMap<>();
 
@@ -143,10 +167,7 @@ public class ElevatorService implements IElevatorService {
     @Override
     public List<Character> elevadorMenosFrequentado() {
 
-        var repo = _repository.StringJsonStream();
-
-        InputResponse[] response = new Gson().fromJson(repo, InputResponse[].class);
-        List<InputResponse> list = new ArrayList<>(Arrays.asList(response));
+        List<InputResponse> list = InputRepository();
         
         HashMap<String, Integer> elevatorCount = new HashMap<>();
 
@@ -178,10 +199,7 @@ public class ElevatorService implements IElevatorService {
     @Override
     public List<Character> periodoMenorFluxoElevadorMenosFrequentado() {
 
-        var repo = _repository.StringJsonStream();
-
-        InputResponse[] response = new Gson().fromJson(repo, InputResponse[].class);
-        List<InputResponse> list = new ArrayList<>(Arrays.asList(response));
+        List<InputResponse> list = InputRepository();
         
         HashMap<String, HashMap<String, Integer>> shiftCount = new HashMap<>();
 
@@ -223,10 +241,7 @@ public class ElevatorService implements IElevatorService {
     @Override
     public List<Character> periodoMaiorUtilizacaoConjuntoElevadores() {
 
-        var repo = _repository.StringJsonStream();
-
-        InputResponse[] response = new Gson().fromJson(repo, InputResponse[].class);
-        List<InputResponse> list = new ArrayList<>(Arrays.asList(response));
+        List<InputResponse> list = InputRepository();
         
         Map<Character, Integer> shift = new HashMap<>();
 
@@ -256,42 +271,26 @@ public class ElevatorService implements IElevatorService {
 
     @Override
     public float percentualDeUsoElevadorA() {
-       
-        return 0;
+        return CalculateElevatorUsagePercentual("A");
     }
-
+    
     @Override
     public float percentualDeUsoElevadorB() {
-        // return (float)(((pesquisaInput.Count(x => x.elevador == 'B')) * 100.0) /
-        // (pesquisaInput.Count) / 100.0);
-        return 0;
+        return CalculateElevatorUsagePercentual("B");
     }
 
     @Override
     public float percentualDeUsoElevadorC() {
-        // return (float)(((pesquisaInput.Count(x => x.elevador == 'C')) * 100.0) /
-        // (pesquisaInput.Count) / 100.0);
-        return 0;
+        return CalculateElevatorUsagePercentual("C");
     }
 
     @Override
     public float percentualDeUsoElevadorD() {
-        // return (float)(((pesquisaInput.Count(x => x.elevador == 'D')) * 100.0) /
-        // (pesquisaInput.Count) / 100.0);
-        return 0;
+        return CalculateElevatorUsagePercentual("D");
     }
 
     @Override
     public float percentualDeUsoElevadorE() {
-        // int totalDeUsoElevadorE = 0;
-        // int totalDeUsoElevadores = pesquisaInputResponse.size();
-        // for (InputResponse iresp : pesquisaInputResponse) {
-        //     if (iresp.getElevator().equals("E")) {
-        //         totalDeUsoElevadorE++;
-        //     }
-        // }
-        // return (float) totalDeUsoElevadorE / totalDeUsoElevadores * 100;
-        return 0;
+        return CalculateElevatorUsagePercentual("E");
     }
-
 }
