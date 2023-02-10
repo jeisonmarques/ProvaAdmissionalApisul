@@ -222,8 +222,36 @@ public class ElevatorService implements IElevatorService {
 
     @Override
     public List<Character> periodoMaiorUtilizacaoConjuntoElevadores() {
+
+        var repo = _repository.StringJsonStream();
+
+        InputResponse[] response = new Gson().fromJson(repo, InputResponse[].class);
+        List<InputResponse> list = new ArrayList<>(Arrays.asList(response));
         
-        return null;
+        Map<Character, Integer> shift = new HashMap<>();
+
+        shift.put('M', 0);
+        shift.put('V', 0);
+        shift.put('N', 0);
+
+        for (InputResponse iresp : list) {
+            String shiftS = iresp.getShift();
+            char shif = shiftS.charAt(0);
+            shift.put(shif, shift.get(shif) + 1);
+        }
+
+        List<Character> shiftMostUsed = new ArrayList<>();
+        int maxValues = 0;
+        for (Map.Entry<Character, Integer> entry : shift.entrySet()) {
+            if (entry.getValue() > maxValues) {
+                shiftMostUsed.clear();
+                shiftMostUsed.add(entry.getKey());
+                maxValues = entry.getValue();
+            } else if (entry.getValue() == maxValues) {
+                shiftMostUsed.add(entry.getKey());
+            }
+        }
+        return shiftMostUsed;
     }
 
     @Override
@@ -255,8 +283,14 @@ public class ElevatorService implements IElevatorService {
 
     @Override
     public float percentualDeUsoElevadorE() {
-        // return (float)(((pesquisaInput.Count(x => x.elevador == 'E')) * 100.0) /
-        // (pesquisaInput.Count) / 100.0);
+        // int totalDeUsoElevadorE = 0;
+        // int totalDeUsoElevadores = pesquisaInputResponse.size();
+        // for (InputResponse iresp : pesquisaInputResponse) {
+        //     if (iresp.getElevator().equals("E")) {
+        //         totalDeUsoElevadorE++;
+        //     }
+        // }
+        // return (float) totalDeUsoElevadorE / totalDeUsoElevadores * 100;
         return 0;
     }
 
