@@ -1,6 +1,6 @@
 import java.util.List;
 
-public interface IElevadorService {
+public interface IElevatorService {
 	
 	/** Deve retornar uma List contendo o(s) andar(es) menos utilizado(s). */
 	List<Integer> andarMenosUtilizado();
@@ -34,5 +34,4 @@ public interface IElevadorService {
 	
 	/** Deve retornar um float (duas casas decimais) contendo o percentual de uso do elevador E em relação a todos os serviços prestados. */
 	float percentualDeUsoElevadorE();
-
 }
