@@ -1,11 +1,13 @@
 public class App {
 
     public static void main(String[] args) {
-        System.out.println("Running okay!");
+        // Dependencies
+        ElevatorRepository elevadorRepository = new ElevatorRepository();
 
-        System.out.println(String.join("\t","a. Qual é o andar menos utilizado pelos usuários"
-        // , 
-        // elevadorService.andarMenosUtilizado().toString()
+        // Inject
+        ElevatorService elevadorService = new ElevatorService(elevadorRepository);
+
+        System.out.println(String.join("\t","a. Qual é o andar menos utilizado pelos usuários", elevadorService.andarMenosUtilizado().toString()
         ));
     }
 }

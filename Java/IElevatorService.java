@@ -1,6 +1,6 @@
 import java.util.List;
 
-public interface IElevadorService {
+public interface IElevatorService {
 	
 	/** Deve retornar uma List contendo o(s) andar(es) menos utilizado(s). */
 	List<Integer> andarMenosUtilizado();
