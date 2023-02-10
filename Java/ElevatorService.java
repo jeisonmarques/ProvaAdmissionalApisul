@@ -3,6 +3,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import com.google.gson.Gson;
 
@@ -141,14 +142,82 @@ public class ElevatorService implements IElevatorService {
 
     @Override
     public List<Character> elevadorMenosFrequentado() {
-        // TODO Auto-generated method stub
-        return null;
+
+        var repo = _repository.StringJsonStream();
+
+        InputResponse[] response = new Gson().fromJson(repo, InputResponse[].class);
+        List<InputResponse> list = new ArrayList<>(Arrays.asList(response));
+        
+        HashMap<String, Integer> elevatorCount = new HashMap<>();
+
+        for (InputResponse iresp : list) {
+            String elevator = iresp.getElevator();
+            if (!elevatorCount.containsKey(elevator)) {
+                elevatorCount.put(elevator, 0);
+            }
+            elevatorCount.put(elevator, elevatorCount.get(elevator) + 1);
+        }
+
+        String elevatorLessUsed = "";
+        int minimusCount = Integer.MAX_VALUE;
+        for (String elevator : elevatorCount.keySet()) {
+            int count = elevatorCount.get(elevator);
+            if (count < minimusCount) {
+                minimusCount = count;
+                elevatorLessUsed = elevator;
+            }
+        }
+
+        List<Character> elevatorChar = new ArrayList<>();
+        for (char c : elevatorLessUsed.toCharArray()) {
+            elevatorChar.add(c);
+        }
+        return elevatorChar;
     }
 
     @Override
     public List<Character> periodoMenorFluxoElevadorMenosFrequentado() {
+
+        var repo = _repository.StringJsonStream();
+
+        InputResponse[] response = new Gson().fromJson(repo, InputResponse[].class);
+        List<InputResponse> list = new ArrayList<>(Arrays.asList(response));
         
-        return null;
+        HashMap<String, HashMap<String, Integer>> shiftCount = new HashMap<>();
+
+        for (InputResponse iresp : list) {
+            String elevator = iresp.getElevator();
+            String shift = iresp.getShift();
+
+            if (!shiftCount.containsKey(elevator)) {
+                shiftCount.put(elevator, new HashMap<String, Integer>());
+            }
+            if (!shiftCount.get(elevator).containsKey(shift)) {
+                shiftCount.get(elevator).put(shift, 0);
+            }
+            shiftCount.get(elevator).put(shift, shiftCount.get(elevator).get(shift) + 1);
+        }
+        
+        String elevatorLessUsed = "";
+        int minimusCount = Integer.MAX_VALUE;
+        for (String elevator : shiftCount.keySet()) {
+            int counter = shiftCount.get(elevator).values().stream().mapToInt(Integer::intValue).sum();
+            if (counter < minimusCount) {
+                minimusCount = counter;
+                elevatorLessUsed = elevator;
+            }
+        }
+
+        String shiftLessUsed = "";
+        minimusCount = Integer.MAX_VALUE;
+        for (String period : shiftCount.get(elevatorLessUsed).keySet()) {
+            int counter = shiftCount.get(elevatorLessUsed).get(period);
+            if (counter < minimusCount) {
+                minimusCount = counter;
+                shiftLessUsed = period;
+            }
+        }
+        return shiftLessUsed.chars().mapToObj(e -> (char) e).collect(Collectors.toList());
     }
 
     @Override

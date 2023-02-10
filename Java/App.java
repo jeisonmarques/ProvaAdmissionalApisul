@@ -11,6 +11,8 @@ public class App {
 
         System.out.println(String.join("\t","b. Qual é o elevador mais frequentado " + elevadorService.elevadorMaisFrequentado().toString() + ", e o período que se encontra maior fluxo", elevadorService.periodoMaiorFluxoElevadorMaisFrequentado().toString()));
 
+        System.out.println(String.join("\t","c. Qual é o elevador menos frequentado " + elevadorService.elevadorMenosFrequentado().toString() + ", e o período que se encontra menor fluxo", elevadorService.periodoMenorFluxoElevadorMenosFrequentado().toString()));
+
 
     }
 }
