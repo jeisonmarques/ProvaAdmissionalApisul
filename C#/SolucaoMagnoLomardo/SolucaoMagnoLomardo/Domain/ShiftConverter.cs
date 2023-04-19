@@ -12,15 +12,15 @@ internal static class Converter
         DateParseHandling = DateParseHandling.None,
         Converters =
         {
-            TurnoConverter.Singleton,
+            ShiftConverter.Singleton,
             new IsoDateTimeConverter { DateTimeStyles = DateTimeStyles.AssumeUniversal }
         },
     };
 }
 
-internal class TurnoConverter : JsonConverter
+internal class ShiftConverter : JsonConverter
 {
-    public override bool CanConvert(Type t) => t == typeof(TurnoEnum) || t == typeof(TurnoEnum?);
+    public override bool CanConvert(Type t) => t == typeof(ShiftEnum) || t == typeof(ShiftEnum?);
 
     public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
     {
@@ -30,17 +30,17 @@ internal class TurnoConverter : JsonConverter
             return;
         }
 
-        var helper = (TurnoEnum) value;
+        var helper = (ShiftEnum) value;
         
         switch (helper)
         {
-            case TurnoEnum.Matutino:
+            case ShiftEnum.Matutino:
                 serializer.Serialize(writer, "M");
                 return;
-            case TurnoEnum.Noturno:
+            case ShiftEnum.Noturno:
                 serializer.Serialize(writer, "N");
                 return;
-            case TurnoEnum.Vespertino:
+            case ShiftEnum.Vespertino:
                 serializer.Serialize(writer, "V");
                 return;
         }
@@ -61,15 +61,15 @@ internal class TurnoConverter : JsonConverter
         switch (value)
         {
             case "M":
-                return TurnoEnum.Matutino;
+                return ShiftEnum.Matutino;
             case "N":
-                return TurnoEnum.Noturno;
+                return ShiftEnum.Noturno;
             case "V":
-                return TurnoEnum.Vespertino;
+                return ShiftEnum.Vespertino;
         }
 
         throw new Exception("Ocorreu um erro na desconversão do Turno");
     }
 
-    public static readonly TurnoConverter Singleton = new TurnoConverter();
+    public static readonly ShiftConverter Singleton = new ShiftConverter();
 }

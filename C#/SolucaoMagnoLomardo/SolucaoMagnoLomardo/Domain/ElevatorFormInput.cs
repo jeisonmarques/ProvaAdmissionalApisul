@@ -11,5 +11,5 @@ public class ElevatorFormInput
     public string Elevador { get; set; }
     
     [JsonProperty("turno")]
-    public TurnoEnum Turno { get; set; }
+    public ShiftEnum Shift { get; set; }
 }

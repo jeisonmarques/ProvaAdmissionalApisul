@@ -1,6 +1,6 @@
 namespace SolucaoMagnoLomardo.Domain;
 
-public enum TurnoEnum
+public enum ShiftEnum
 {
     Matutino,
     Vespertino,
