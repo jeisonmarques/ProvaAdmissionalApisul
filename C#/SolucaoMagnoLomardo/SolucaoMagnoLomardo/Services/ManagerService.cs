@@ -68,7 +68,10 @@ public class ManagerService
 
     private void FindLeastUsedElevatorAndItsLeastUsedShift()
     {
-        var result = _elevatorService.periodoMenorFluxoElevadorMenosFrequentado();
+        var elevators = _elevatorService.elevadorMenosFrequentado();
+        var shifts = _elevatorService.periodoMenorFluxoElevadorMenosFrequentado();
+        Console.WriteLine("Os turnos dos elevadores menos usados são: ");
+        ShowElevatorsAndShift(elevators, shifts);
     }
 
     private void FindShiftWithMostElevatorUsage()
@@ -176,7 +179,7 @@ public class ManagerService
     {
         foreach (var entry in toShow)
         {
-            Console.Write(" {0},", entry);
+            Console.Write("{0} ", entry);
         }
     }
 
@@ -184,7 +187,7 @@ public class ManagerService
     {
         foreach (var entry in toShow)
         {
-            Console.Write(" {0},", entry);
+            Console.Write("{0} ", entry);
         }
     }
 
@@ -198,7 +201,7 @@ public class ManagerService
 
         for (int i = 0; i < elevators.Count; i++)
         {
-            Console.Write("{0}: {1} ", elevators[i], shift[i]);
+            Console.Write("Elevador {0}: Turno: {1} ", elevators[i], shift[i]);
         }
     }
     

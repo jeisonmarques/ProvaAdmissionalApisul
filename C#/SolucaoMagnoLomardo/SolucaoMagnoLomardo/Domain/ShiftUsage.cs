@@ -7,7 +7,18 @@ public class ShiftUsage
     
     public char ConvertShiftToChar()
     {
-        return this.Shift switch
+        return Shift switch
+        {
+            ShiftEnum.Matutino => 'M',
+            ShiftEnum.Noturno => 'N',
+            ShiftEnum.Vespertino => 'V',
+            _ => throw new ArgumentOutOfRangeException()
+        };
+    }
+    
+    public static char ConvertShiftToChar(ShiftEnum shiftEnum)
+    {
+        return shiftEnum switch
         {
             ShiftEnum.Matutino => 'M',
             ShiftEnum.Noturno => 'N',

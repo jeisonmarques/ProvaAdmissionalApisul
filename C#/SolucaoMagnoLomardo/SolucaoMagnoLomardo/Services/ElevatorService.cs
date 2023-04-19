@@ -167,8 +167,6 @@ public class ElevatorService : IElevadorService
     {
         var result = new List<char>();
         var desiredElevators = elevadorMaisFrequentado();
-        // var elevatorsShift = new Dictionary<char, ShiftEnum>();
-        // if (elevatorsShift == null) throw new ArgumentNullException(nameof(elevatorsShift));
 
         var helper = _inputs.Where(x => desiredElevators.Exists(d => d == x.Elevador[0]));
 
@@ -177,24 +175,18 @@ public class ElevatorService : IElevadorService
             var countM = helper.Count(entry => entry.Shift == ShiftEnum.Matutino);
             var countV = helper.Count(entry => entry.Shift == ShiftEnum.Vespertino);
             var countN = helper.Count(entry => entry.Shift == ShiftEnum.Noturno);
-
-            // matutino
+            
             if (countM >= countV && countM >= countN)
             {
-                // elevatorsShift.Add(elevator, ShiftEnum.Matutino);
-                result.Add('M');
+                result.Add(ShiftUsage.ConvertShiftToChar(ShiftEnum.Matutino));
             }
-            // vespertino
             else if (countV >= countN && countV >= countM)
             {
-                // elevatorsShift.Add(elevator, ShiftEnum.Vespertino);
-                result.Add('V');
+                result.Add(ShiftUsage.ConvertShiftToChar(ShiftEnum.Vespertino));
             }
-            // noturno
             else if (countN >= countM && countN >= countV)
             {
-                // elevatorsShift.Add(elevator, ShiftEnum.Noturno);
-                result.Add('N');
+                result.Add(ShiftUsage.ConvertShiftToChar(ShiftEnum.Noturno));
             }
         }
         return result;
@@ -216,37 +208,59 @@ public class ElevatorService : IElevadorService
 
     public List<char> periodoMenorFluxoElevadorMenosFrequentado()
     {
-        var aux = elevadorMenosFrequentado();
-        return null;
-        // var helper = _shiftsUsage.Where(su => su.UsageCount <= su.UsageCount);
-        // var desiredShift = helper.First();
-        //
-        // var flow = _inputs.Where(ipt => ipt.Shift == desiredShift.Shift);
-        // var usage = new List<ElevatorUsage>();
-        //
-        // foreach (var input in flow) 
-        // {
-        //     if(usage.Exists(x => x.Elevator == input.Elevador[0]))
-        //     {
-        //         usage.Find(x =>
-        //             x.Elevator == input.Elevador[0]
-        //         )!.UsageCount++;
-        //     }
-        //     else
-        //     {
-        //         usage.Add(new ElevatorUsage
-        //         {
-        //             Elevator = input.Elevador[0],
-        //             UsageCount = 1
-        //         });
-        //     }
-        // }
-        //
-        // var elevator = usage.Where(u => u.UsageCount <= u.UsageCount);
-        // var minUsage = elevator.First().UsageCount;
-        // elevator = elevator.Where(e => e.UsageCount == minUsage);
-        //
-        // return elevator.Select(e => e.Elevator).ToList();
+        var result = new List<char>();
+        var desiredElevators = elevadorMenosFrequentado();
+
+        var helper = _inputs.Where(x => desiredElevators.Exists(d => d == x.Elevador[0]));
+
+        foreach (var elevator in desiredElevators)
+        {
+            var countM = helper.Count(entry => entry.Shift == ShiftEnum.Matutino);
+            var countV = helper.Count(entry => entry.Shift == ShiftEnum.Vespertino);
+            var countN = helper.Count(entry => entry.Shift == ShiftEnum.Noturno);
+
+            if (countM != 0)
+            {
+                if (countV == 0 && countN == 0)
+                {
+                    result.Add(ShiftUsage.ConvertShiftToChar(ShiftEnum.Matutino));
+                }
+                else if (countV > countN && countV > countM)
+                {
+                    result.Add(ShiftUsage.ConvertShiftToChar(ShiftEnum.Vespertino));
+                }
+                else
+                {
+                    result.Add(countM > countN
+                        ? ShiftUsage.ConvertShiftToChar(ShiftEnum.Matutino)
+                        : ShiftUsage.ConvertShiftToChar(ShiftEnum.Noturno));
+                }
+            }
+            else if (countV != 0)
+            {
+                if (countN == 0)
+                {
+                    result.Add(ShiftUsage.ConvertShiftToChar(ShiftEnum.Vespertino));
+                }
+                else if(countV > countN)
+                {
+                    result.Add(ShiftUsage.ConvertShiftToChar(ShiftEnum.Vespertino));
+                }
+                else
+                {
+                    result.Add(ShiftUsage.ConvertShiftToChar(ShiftEnum.Noturno));
+                }
+                
+            }
+            else if (countN != 0)
+            {
+                result.Add(countM >= countN
+                    ? ShiftUsage.ConvertShiftToChar(ShiftEnum.Matutino)
+                    : ShiftUsage.ConvertShiftToChar(ShiftEnum.Noturno));
+            }
+            
+        }
+        return result;
     }
 
     public List<char> periodoMaiorUtilizacaoConjuntoElevadores()
