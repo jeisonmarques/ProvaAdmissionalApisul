@@ -1,11 +1,14 @@
 using System.Text.RegularExpressions;
+using Newtonsoft.Json;
+using SolucaoMagnoLomardo.Domain;
+using File = System.IO.File;
 
 namespace SolucaoMagnoLomardo.Services;
 
 public class ManagerService
 {
     private bool canCloseProgram = false;
-    private ElevatorService _service;
+    private ElevatorService _elevatorService;
     
     private const int TotalAndares = 15;
     private const int TotalElevadores = 5;
@@ -13,7 +16,7 @@ public class ManagerService
 
     public ManagerService()
     {
-        _service = new ElevatorService(TotalAndares, TotalElevadores);
+        _elevatorService = new ElevatorService(TotalAndares, TotalElevadores);
     }
 
 
@@ -63,6 +66,19 @@ public class ManagerService
     private void UpdateDataToBeProcessed()
     {
         var path = GetInputFilePath();
+
+        if (!ValidateFile(path))
+        {
+            return;
+        }
+
+        using (StreamReader r = new StreamReader(path))
+        {
+            var jsonString = r.ReadToEnd();
+            var data = JsonConvert.DeserializeObject<ElevatorFormInput[]>(jsonString);
+            _elevatorService.UpdateInputData(data.ToList());
+        }
+
     }
 
     public void ManageLoop()
@@ -161,6 +177,25 @@ public class ManagerService
 
         return true;
     }
+
+    private bool ValidateFile(string filepath)
+    {
+        if (!File.Exists(filepath))
+        {
+            Console.Error.Write("Erro: arquivo inexistente!");
+            return false;
+        }
+
+        var info = new FileInfo(filepath);
+        if (!info.Extension.Equals(".json"))
+        {
+            Console.Error.Write("Erro: O arquivo fornecido NÃO é um JSON!");
+            return false;
+        }
+
+        return true;
+    }
+    
     
     private void QuitApplication(int exitCode)
     {

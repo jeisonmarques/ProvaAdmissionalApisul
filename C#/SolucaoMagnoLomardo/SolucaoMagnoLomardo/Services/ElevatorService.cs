@@ -7,18 +7,18 @@ public class ElevatorService : IElevadorService
 {
     private List<ElevatorFormInput> _inputs;
     private bool _updatingData;
-    private int[] _floorUsage;
-    private int[] _elevatorUsage;
-    private int[] _shiftsUsage;
+    private FloorUsageStruct[] _floorUsage;
+    private ElevatorUsageStruct[] _elevatorUsage;
+    private ShiftUsageStruct[] _shiftsUsage;
     
 
     public ElevatorService(int totalFloors, int totalElevators)
     {
         _inputs = new List<ElevatorFormInput>();
         _updatingData = false;
-        _floorUsage = new int[totalFloors];
-        _elevatorUsage = new int[totalElevators];
-        _shiftsUsage = new int[Enum.GetValues<ShiftEnum>().Length];
+        _floorUsage = new FloorUsageStruct[totalFloors];
+        _elevatorUsage = new ElevatorUsageStruct[totalElevators];
+        _shiftsUsage = new ShiftUsageStruct[Enum.GetValues<ShiftEnum>().Length];
     }
 
     private bool CanUpdateData()
@@ -47,6 +47,7 @@ public class ElevatorService : IElevadorService
         ToggleUpdatingDataStatus();
         _inputs = newData;
         ToggleUpdatingDataStatus();
+        Console.Write("Dados atualizados com sucesso!");
         return true;
     }
 
