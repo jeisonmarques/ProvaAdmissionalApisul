@@ -1,6 +1,6 @@
 namespace SolucaoMagnoLomardo.Domain;
 
-public struct FloorUsageStruct
+public class FloorUsage
 {
     public int FloorLevel { get; set; }
     public int UsageCount { get; set; }

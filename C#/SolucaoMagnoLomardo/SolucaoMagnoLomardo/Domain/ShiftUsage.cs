@@ -1,6 +1,6 @@
 namespace SolucaoMagnoLomardo.Domain;
 
-public struct ShiftUsageStruct
+public class ShiftUsage
 {
     public ShiftEnum Shift { get; set; }
     public int UsageCount { get; set; }

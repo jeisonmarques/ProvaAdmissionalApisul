@@ -1,3 +1,4 @@
+using System.Net;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 using SolucaoMagnoLomardo.Domain;
@@ -10,7 +11,7 @@ public class ManagerService
     private bool canCloseProgram = false;
     private ElevatorService _elevatorService;
     
-    private const int TotalAndares = 15;
+    private const int TotalAndares = 16;
     private const int TotalElevadores = 5;
     private const int ChoicesMaxLength = 1;
 
@@ -27,19 +28,33 @@ public class ManagerService
 
     private void ShowMainMenu()
     {
-        Console.WriteLine("\nPor favor, escolha a opção desejada:" +
-                          "\n1: Qual é o andar menos utilizado pelos usuários;" +
-                          "\n2: Qual é o elevador mais frequentado e o período que se encontra maior fluxo;" +
-                          "\n3: Qual é o elevador menos frequentado e o período que se encontra menor fluxo;" +
-                          "\n4: Qual o período de maior utilização do conjunto de elevadores;" +
-                          "\n5: Qual o percentual de uso de cada elevador com relação a todos os serviços prestados;" +
-                          "\n6: Inserir/Atualizar os dados a serem processados;" +
-                          "\n0: Sair (encerrar esta aplicação);");
+        if (!_elevatorService.HasData())
+        {
+            Console.WriteLine("\n\nNo momento não há dados a serem processados no sistema!" +
+                              "\nPor favor, escolha a opção desejada:" +
+                              "\n6: Inserir/Atualizar os dados a serem processados;" +
+                              "\n0: Sair (encerrar esta aplicação);");
+        }
+        else
+        {
+            Console.WriteLine("\n\nPor favor, escolha a opção desejada:" +
+                              "\n1: Qual é o andar menos utilizado pelos usuários;" +
+                              "\n2: Qual é o elevador mais frequentado e o período que se encontra maior fluxo;" +
+                              "\n3: Qual é o elevador menos frequentado e o período que se encontra menor fluxo;" +
+                              "\n4: Qual o período de maior utilização do conjunto de elevadores;" +
+                              "\n5: Qual o percentual de uso de cada elevador com relação a todos os serviços prestados;" +
+                              "\n6: Inserir/Atualizar os dados a serem processados;" +
+                              "\n7: Limpar cache de dados;" +
+                              "\n0: Sair (encerrar esta aplicação);");
+        }
 
     }
 
     private void FindLeastUsedFloor()
     {
+        var floors = _elevatorService.andarMenosUtilizado();
+        Console.WriteLine("Os andares menos usados são: ");
+        ShowIntList(floors);
         
     }
 
@@ -60,7 +75,6 @@ public class ManagerService
 
     private void FindElevatorPercentUsageFromBroadUsage()
     {
-        
     }
     
     private void UpdateDataToBeProcessed()
@@ -79,6 +93,11 @@ public class ManagerService
             _elevatorService.UpdateInputData(data.ToList());
         }
 
+    }
+
+    private void ClearDataCache()
+    {
+        _elevatorService.ClearInputData();
     }
 
     public void ManageLoop()
@@ -106,9 +125,11 @@ public class ManagerService
             case 6:
                 UpdateDataToBeProcessed();
                 break;
-            default:
-                Console.WriteLine("\nOpção inválida! Tente novamente.");
+            case 7:
+                ClearDataCache();
                 break;
+            default:
+                return;
         }
     }
 
@@ -136,7 +157,22 @@ public class ManagerService
 
     private void ShowInvalidInputMessage()
     {
-        Console.WriteLine("The input provided is not valid. Please try again.");
+        Console.WriteLine("A entrada fornecida não é válida! Por favor tente novamente.");
+    }
+    private void ShowIntList(List<int> toShow)
+    {
+        foreach (var entry in toShow)
+        {
+            Console.Write(" {0},", entry);
+        }
+    }
+
+    private void ShowCharList(List<char> toShow)
+    {
+        foreach (var entry in toShow)
+        {
+            Console.Write(" {0},", entry);
+        }
     }
     
     private int GetUserInputToInt()

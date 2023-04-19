@@ -1,6 +1,6 @@
 namespace SolucaoMagnoLomardo.Domain;
 
-public struct ElevatorUsageStruct
+public class ElevatorUsage
 {
     public char Elevator { get; set; }
     public int UsageCount { get; set; }
