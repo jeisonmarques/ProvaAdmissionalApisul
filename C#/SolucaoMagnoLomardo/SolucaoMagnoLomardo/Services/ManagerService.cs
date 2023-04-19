@@ -65,7 +65,7 @@ public class ManagerService
 
     private void FindLeastUsedElevatorAndItsLeastUsedShift()
     {
-        
+        var result = _elevatorService.periodoMenorFluxoElevadorMenosFrequentado();
     }
 
     private void FindShiftWithMostElevatorUsage()

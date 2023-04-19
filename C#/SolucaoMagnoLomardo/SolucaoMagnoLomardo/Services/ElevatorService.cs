@@ -142,12 +142,12 @@ public class ElevatorService : IElevadorService
         {
             throw new ApplicationException();
         }
-        
-        var helper = _floorUsage.Where(floorUsage => floorUsage.UsageCount <= floorUsage.UsageCount);
-        var minUsage = helper.First().UsageCount;
-        helper = helper.Where(h => h.UsageCount == minUsage);
 
-        return helper.Select(floor => floor.FloorLevel).ToList();
+        var helper = _floorUsage.OrderBy(x => x.UsageCount).ToList();
+        var minUsage = helper.First().UsageCount;
+        helper = helper.Where(h => h.UsageCount == minUsage).ToList();
+        var aux = helper.Select(floor => floor.FloorLevel).ToList();
+        return aux.OrderBy(x => x).ToList();
     }
 
     public List<char> elevadorMaisFrequentado()
@@ -157,9 +157,9 @@ public class ElevatorService : IElevadorService
             throw new ApplicationException();
         }
 
-        var helper = _elevatorUsage.Where(elevatorUsage => elevatorUsage.UsageCount >= elevatorUsage.UsageCount);
+        var helper = _elevatorUsage.OrderByDescending(x => x.UsageCount).ToList();
         var maxUsage = helper.First().UsageCount;
-        helper = helper.Where(h => h.UsageCount == maxUsage);
+        helper = helper.Where(x => x.UsageCount == maxUsage).ToList();
 
         return helper.Select(elevator => elevator.Elevator).ToList();
     }
@@ -168,6 +168,18 @@ public class ElevatorService : IElevadorService
     {
         var result = new List<char>();
         var desiredElevators = elevadorMaisFrequentado();
+        Dictionary<char, ShiftEnum> elevatorsShift = new Dictionary<char, ShiftEnum>();
+        var elevatorUsages = new List<ElevatorUsage>();
+
+        var helper = _inputs.Where(x => desiredElevators.Exists(d => d == x.Elevador[0]));
+
+        foreach (var entry in helper)
+        {
+            foreach (var elevator in desiredElevators)
+            {
+                
+            }
+        }
         return result;
     }
 
@@ -178,44 +190,45 @@ public class ElevatorService : IElevadorService
             throw new ApplicationException();
         }
 
-        var helper = _elevatorUsage.Where(elevatorUsage => elevatorUsage.UsageCount <= elevatorUsage.UsageCount);
+        var helper = _elevatorUsage.OrderBy(x => x.UsageCount).ToList();
         var minUsage = helper.First().UsageCount;
-        helper = helper.Where(h => h.UsageCount == minUsage);
+        helper = helper.Where(h => h.UsageCount == minUsage).ToList();
 
         return helper.Select(elevator => elevator.Elevator).ToList();
     }
 
     public List<char> periodoMenorFluxoElevadorMenosFrequentado()
     {
-        var helper = _shiftsUsage.Where(su => su.UsageCount <= su.UsageCount);
-        var desiredShift = helper.First();
-
-        var flow = _inputs.Where(ipt => ipt.Shift == desiredShift.Shift);
-        var usage = new List<ElevatorUsage>();
-
-        foreach (var input in flow) 
-        {
-            if(usage.Exists(x => x.Elevator == input.Elevador[0]))
-            {
-                usage.Find(x =>
-                    x.Elevator == input.Elevador[0]
-                )!.UsageCount++;
-            }
-            else
-            {
-                usage.Add(new ElevatorUsage
-                {
-                    Elevator = input.Elevador[0],
-                    UsageCount = 1
-                });
-            }
-        }
-
-        var elevator = usage.Where(u => u.UsageCount <= u.UsageCount);
-        var minUsage = elevator.First().UsageCount;
-        elevator = elevator.Where(e => e.UsageCount == minUsage);
-
-        return elevator.Select(e => e.Elevator).ToList();
+        var aux = elevadorMenosFrequentado();
+        // var helper = _shiftsUsage.Where(su => su.UsageCount <= su.UsageCount);
+        // var desiredShift = helper.First();
+        //
+        // var flow = _inputs.Where(ipt => ipt.Shift == desiredShift.Shift);
+        // var usage = new List<ElevatorUsage>();
+        //
+        // foreach (var input in flow) 
+        // {
+        //     if(usage.Exists(x => x.Elevator == input.Elevador[0]))
+        //     {
+        //         usage.Find(x =>
+        //             x.Elevator == input.Elevador[0]
+        //         )!.UsageCount++;
+        //     }
+        //     else
+        //     {
+        //         usage.Add(new ElevatorUsage
+        //         {
+        //             Elevator = input.Elevador[0],
+        //             UsageCount = 1
+        //         });
+        //     }
+        // }
+        //
+        // var elevator = usage.Where(u => u.UsageCount <= u.UsageCount);
+        // var minUsage = elevator.First().UsageCount;
+        // elevator = elevator.Where(e => e.UsageCount == minUsage);
+        //
+        // return elevator.Select(e => e.Elevator).ToList();
     }
 
     public List<char> periodoMaiorUtilizacaoConjuntoElevadores()
@@ -225,9 +238,9 @@ public class ElevatorService : IElevadorService
             throw new ApplicationException();
         }
 
-        var helper = _shiftsUsage.Where(shift => shift.UsageCount >= shift.UsageCount);
+        var helper = _shiftsUsage.OrderByDescending(shift => shift.UsageCount >= shift.UsageCount).ToList();
         var maxUsage = helper.First().UsageCount;
-        helper = helper.Where(h => h.UsageCount == maxUsage);
+        helper = helper.Where(h => h.UsageCount == maxUsage).ToList();
 
         var result = new List<char>();
 
