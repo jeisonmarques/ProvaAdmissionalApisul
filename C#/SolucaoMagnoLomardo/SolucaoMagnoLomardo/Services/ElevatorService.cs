@@ -157,9 +157,9 @@ public class ElevatorService : IElevadorService
             throw new ApplicationException();
         }
 
-        var helper = _elevatorUsage.Where(elevatorUsage => elevatorUsage.TotalUsageCount >= elevatorUsage.TotalUsageCount);
-        var maxUsage = helper.First().TotalUsageCount;
-        helper = helper.Where(h => h.TotalUsageCount == maxUsage);
+        var helper = _elevatorUsage.Where(elevatorUsage => elevatorUsage.UsageCount >= elevatorUsage.UsageCount);
+        var maxUsage = helper.First().UsageCount;
+        helper = helper.Where(h => h.UsageCount == maxUsage);
 
         return helper.Select(elevator => elevator.Elevator).ToList();
     }
@@ -178,16 +178,16 @@ public class ElevatorService : IElevadorService
             throw new ApplicationException();
         }
 
-        var helper = _elevatorUsage.Where(elevatorUsage => elevatorUsage.TotalUsageCount <= elevatorUsage.TotalUsageCount);
-        var minUsage = helper.First().TotalUsageCount;
-        helper = helper.Where(h => h.TotalUsageCount == minUsage);
+        var helper = _elevatorUsage.Where(elevatorUsage => elevatorUsage.UsageCount <= elevatorUsage.UsageCount);
+        var minUsage = helper.First().UsageCount;
+        helper = helper.Where(h => h.UsageCount == minUsage);
 
         return helper.Select(elevator => elevator.Elevator).ToList();
     }
 
     public List<char> periodoMenorFluxoElevadorMenosFrequentado()
     {
-        var helper = generalUsage.Where(su => su.TotalUsageCount <= su.TotalUsageCount);
+        var helper = _shiftsUsage.Where(su => su.UsageCount <= su.UsageCount);
         var desiredShift = helper.First();
 
         var flow = _inputs.Where(ipt => ipt.Shift == desiredShift.Shift);
@@ -199,21 +199,21 @@ public class ElevatorService : IElevadorService
             {
                 usage.Find(x =>
                     x.Elevator == input.Elevador[0]
-                )!.TotalUsageCount++;
+                )!.UsageCount++;
             }
             else
             {
                 usage.Add(new ElevatorUsage
                 {
                     Elevator = input.Elevador[0],
-                    TotalUsageCount = 1
+                    UsageCount = 1
                 });
             }
         }
 
-        var elevator = usage.Where(u => u.TotalUsageCount <= u.TotalUsageCount);
-        var minUsage = elevator.First().TotalUsageCount;
-        elevator = elevator.Where(e => e.TotalUsageCount == minUsage);
+        var elevator = usage.Where(u => u.UsageCount <= u.UsageCount);
+        var minUsage = elevator.First().UsageCount;
+        elevator = elevator.Where(e => e.UsageCount == minUsage);
 
         return elevator.Select(e => e.Elevator).ToList();
     }
@@ -225,9 +225,9 @@ public class ElevatorService : IElevadorService
             throw new ApplicationException();
         }
 
-        var helper = generalUsage.Where(shift => shift.TotalUsageCount >= shift.TotalUsageCount);
-        var maxUsage = helper.First().TotalUsageCount;
-        helper = helper.Where(h => h.TotalUsageCount == maxUsage);
+        var helper = _shiftsUsage.Where(shift => shift.UsageCount >= shift.UsageCount);
+        var maxUsage = helper.First().UsageCount;
+        helper = helper.Where(h => h.UsageCount == maxUsage);
 
         var result = new List<char>();
 
@@ -247,7 +247,7 @@ public class ElevatorService : IElevadorService
         }
 
         var totalUsage = _inputs.Count;
-        var elevatorAUsage = _elevatorUsage.Find(x => x.Elevator == 'A')!.TotalUsageCount;
+        var elevatorAUsage = _elevatorUsage.Find(x => x.Elevator == 'A')!.UsageCount;
         var res = (float) elevatorAUsage / totalUsage;
         return (float) Math.Round(res, 2);
     }
@@ -260,7 +260,7 @@ public class ElevatorService : IElevadorService
         }
         
         var totalUsage = _inputs.Count;
-        var elevatorBUsage = _elevatorUsage.Find(x => x.Elevator == 'B')!.TotalUsageCount;
+        var elevatorBUsage = _elevatorUsage.Find(x => x.Elevator == 'B')!.UsageCount;
         var res = (float) elevatorBUsage / totalUsage;
         return (float) Math.Round(res, 2);
     }
@@ -273,7 +273,7 @@ public class ElevatorService : IElevadorService
         }
         
         var totalUsage = _inputs.Count;
-        var elevatorCUsage = _elevatorUsage.Find(x => x.Elevator == 'C')!.TotalUsageCount;
+        var elevatorCUsage = _elevatorUsage.Find(x => x.Elevator == 'C')!.UsageCount;
         var res = (float) elevatorCUsage / totalUsage;
         return (float) Math.Round(res, 2);
     }
@@ -286,7 +286,7 @@ public class ElevatorService : IElevadorService
         }
         
         var totalUsage = _inputs.Count;
-        var elevatorDUsage = _elevatorUsage.Find(x => x.Elevator == 'D')!.TotalUsageCount;
+        var elevatorDUsage = _elevatorUsage.Find(x => x.Elevator == 'D')!.UsageCount;
         var res = (float) elevatorDUsage / totalUsage;
         return (float) Math.Round(res, 2);
     }
@@ -299,7 +299,7 @@ public class ElevatorService : IElevadorService
         }
         
         var totalUsage = _inputs.Count;
-        var elevatorEUsage = _elevatorUsage.Find(x => x.Elevator == 'E')!.TotalUsageCount;
+        var elevatorEUsage = _elevatorUsage.Find(x => x.Elevator == 'E')!.UsageCount;
         var res = (float) elevatorEUsage / totalUsage;
         return (float) Math.Round(res, 2);
     }

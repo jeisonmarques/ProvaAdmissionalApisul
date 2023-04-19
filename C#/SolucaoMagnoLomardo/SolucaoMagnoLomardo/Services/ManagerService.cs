@@ -70,11 +70,21 @@ public class ManagerService
 
     private void FindShiftWithMostElevatorUsage()
     {
-        
+        var res = _elevatorService.periodoMaiorUtilizacaoConjuntoElevadores();
+        Console.WriteLine("Os Turnos com o maior uso dos elevadores são: ");
+        ShowCharList(res);
     }
 
     private void FindElevatorPercentUsageFromBroadUsage()
     {
+        var elevatorA = _elevatorService.percentualDeUsoElevadorA() * 100;
+        var elevatorB = _elevatorService.percentualDeUsoElevadorB() * 100;
+        var elevatorC = _elevatorService.percentualDeUsoElevadorC() * 100;
+        var elevatorD = _elevatorService.percentualDeUsoElevadorD() * 100;
+        var elevatorE = _elevatorService.percentualDeUsoElevadorE() * 100;
+        
+        Console.WriteLine("O percentual de uso de cada elevador é:" +
+                          "\nA: {0}%, B: {1}%, C: {2}%, D: {3}%, E: {4}%", elevatorA, elevatorB, elevatorC, elevatorC, elevatorE);
     }
     
     private void UpdateDataToBeProcessed()
