@@ -123,8 +123,7 @@ public class ElevatorService : IElevadorService
     {
         if (HasData())
         {
-            // TODO - validar se deseja sobrescrever os dados
-            Console.Error.Write("Não pode autalizar os dados no momento, operação já em andamento!");
+            Console.Error.Write("Não pode autalizar os dados no momento, operação já em andamento! Limpe os dados e tente novamente.");
             return false;
         }
 
@@ -158,55 +157,150 @@ public class ElevatorService : IElevadorService
             throw new ApplicationException();
         }
 
-        var helper = _elevatorUsage.Where(elevatorUsage => elevatorUsage.UsageCount >= elevatorUsage.UsageCount);
-        var maxUsage = helper.First().UsageCount;
-        helper = helper.Where(h => h.UsageCount == maxUsage);
+        var helper = _elevatorUsage.Where(elevatorUsage => elevatorUsage.TotalUsageCount >= elevatorUsage.TotalUsageCount);
+        var maxUsage = helper.First().TotalUsageCount;
+        helper = helper.Where(h => h.TotalUsageCount == maxUsage);
 
         return helper.Select(elevator => elevator.Elevator).ToList();
     }
 
     public List<char> periodoMaiorFluxoElevadorMaisFrequentado()
     {
-        throw new NotImplementedException();
+        var result = new List<char>();
+        var desiredElevators = elevadorMaisFrequentado();
+        return result;
     }
 
     public List<char> elevadorMenosFrequentado()
     {
-        throw new NotImplementedException();
+        if (!CanProcessData() || !HasData())
+        {
+            throw new ApplicationException();
+        }
+
+        var helper = _elevatorUsage.Where(elevatorUsage => elevatorUsage.TotalUsageCount <= elevatorUsage.TotalUsageCount);
+        var minUsage = helper.First().TotalUsageCount;
+        helper = helper.Where(h => h.TotalUsageCount == minUsage);
+
+        return helper.Select(elevator => elevator.Elevator).ToList();
     }
 
     public List<char> periodoMenorFluxoElevadorMenosFrequentado()
     {
-        throw new NotImplementedException();
+        var helper = generalUsage.Where(su => su.TotalUsageCount <= su.TotalUsageCount);
+        var desiredShift = helper.First();
+
+        var flow = _inputs.Where(ipt => ipt.Shift == desiredShift.Shift);
+        var usage = new List<ElevatorUsage>();
+
+        foreach (var input in flow) 
+        {
+            if(usage.Exists(x => x.Elevator == input.Elevador[0]))
+            {
+                usage.Find(x =>
+                    x.Elevator == input.Elevador[0]
+                )!.TotalUsageCount++;
+            }
+            else
+            {
+                usage.Add(new ElevatorUsage
+                {
+                    Elevator = input.Elevador[0],
+                    TotalUsageCount = 1
+                });
+            }
+        }
+
+        var elevator = usage.Where(u => u.TotalUsageCount <= u.TotalUsageCount);
+        var minUsage = elevator.First().TotalUsageCount;
+        elevator = elevator.Where(e => e.TotalUsageCount == minUsage);
+
+        return elevator.Select(e => e.Elevator).ToList();
     }
 
     public List<char> periodoMaiorUtilizacaoConjuntoElevadores()
     {
-        throw new NotImplementedException();
+        if (!CanProcessData() || !HasData())
+        {
+            throw new ApplicationException();
+        }
+
+        var helper = generalUsage.Where(shift => shift.TotalUsageCount >= shift.TotalUsageCount);
+        var maxUsage = helper.First().TotalUsageCount;
+        helper = helper.Where(h => h.TotalUsageCount == maxUsage);
+
+        var result = new List<char>();
+
+        foreach (var h in helper)
+        {
+            result.Add(h.ConvertShiftToChar());
+        }
+
+        return result;
     }
 
     public float percentualDeUsoElevadorA()
     {
-        throw new NotImplementedException();
+        if (!CanProcessData())
+        {
+            return 0f;
+        }
+
+        var totalUsage = _inputs.Count;
+        var elevatorAUsage = _elevatorUsage.Find(x => x.Elevator == 'A')!.TotalUsageCount;
+        var res = (float) elevatorAUsage / totalUsage;
+        return (float) Math.Round(res, 2);
     }
 
     public float percentualDeUsoElevadorB()
     {
-        throw new NotImplementedException();
+        if (!CanProcessData())
+        {
+            return 0f;
+        }
+        
+        var totalUsage = _inputs.Count;
+        var elevatorBUsage = _elevatorUsage.Find(x => x.Elevator == 'B')!.TotalUsageCount;
+        var res = (float) elevatorBUsage / totalUsage;
+        return (float) Math.Round(res, 2);
     }
 
     public float percentualDeUsoElevadorC()
     {
-        throw new NotImplementedException();
+        if (!CanProcessData())
+        {
+            return 0f;
+        }
+        
+        var totalUsage = _inputs.Count;
+        var elevatorCUsage = _elevatorUsage.Find(x => x.Elevator == 'C')!.TotalUsageCount;
+        var res = (float) elevatorCUsage / totalUsage;
+        return (float) Math.Round(res, 2);
     }
 
     public float percentualDeUsoElevadorD()
     {
-        throw new NotImplementedException();
+        if (!CanProcessData())
+        {
+            return 0f;
+        }
+        
+        var totalUsage = _inputs.Count;
+        var elevatorDUsage = _elevatorUsage.Find(x => x.Elevator == 'D')!.TotalUsageCount;
+        var res = (float) elevatorDUsage / totalUsage;
+        return (float) Math.Round(res, 2);
     }
 
     public float percentualDeUsoElevadorE()
     {
-        throw new NotImplementedException();
+        if (!CanProcessData())
+        {
+            return 0f;
+        }
+        
+        var totalUsage = _inputs.Count;
+        var elevatorEUsage = _elevatorUsage.Find(x => x.Elevator == 'E')!.TotalUsageCount;
+        var res = (float) elevatorEUsage / totalUsage;
+        return (float) Math.Round(res, 2);
     }
 }

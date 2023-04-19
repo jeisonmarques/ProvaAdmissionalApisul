@@ -60,7 +60,7 @@ public class ManagerService
 
     private void FindMostUsedElevatorAndItsMostUsedShift()
     {
-        
+        var result = _elevatorService.periodoMaiorFluxoElevadorMaisFrequentado();
     }
 
     private void FindLeastUsedElevatorAndItsLeastUsedShift()
