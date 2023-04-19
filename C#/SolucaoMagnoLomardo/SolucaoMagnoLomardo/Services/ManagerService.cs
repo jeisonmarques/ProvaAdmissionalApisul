@@ -60,7 +60,10 @@ public class ManagerService
 
     private void FindMostUsedElevatorAndItsMostUsedShift()
     {
-        var result = _elevatorService.periodoMaiorFluxoElevadorMaisFrequentado();
+        var elevators = _elevatorService.elevadorMaisFrequentado();
+        var shifts = _elevatorService.periodoMaiorFluxoElevadorMaisFrequentado();
+        Console.WriteLine("Os turnos dos elevadores mais usados são: ");
+        ShowElevatorsAndShift(elevators, shifts);
     }
 
     private void FindLeastUsedElevatorAndItsLeastUsedShift()
@@ -182,6 +185,20 @@ public class ManagerService
         foreach (var entry in toShow)
         {
             Console.Write(" {0},", entry);
+        }
+    }
+
+    private void ShowElevatorsAndShift(List<char> elevators, List<char> shift)
+    {
+        if (elevators.Count != shift.Count)
+        {
+            Console.Error.WriteLine("Erro: entradas com tamanhos distintos!");
+            return;
+        }
+
+        for (int i = 0; i < elevators.Count; i++)
+        {
+            Console.Write("{0}: {1} ", elevators[i], shift[i]);
         }
     }
     

@@ -1,4 +1,3 @@
-using System.Data;
 using ProvaAdmissionalCSharpApisul;
 using SolucaoMagnoLomardo.Domain;
 
@@ -168,16 +167,34 @@ public class ElevatorService : IElevadorService
     {
         var result = new List<char>();
         var desiredElevators = elevadorMaisFrequentado();
-        Dictionary<char, ShiftEnum> elevatorsShift = new Dictionary<char, ShiftEnum>();
-        var elevatorUsages = new List<ElevatorUsage>();
+        // var elevatorsShift = new Dictionary<char, ShiftEnum>();
+        // if (elevatorsShift == null) throw new ArgumentNullException(nameof(elevatorsShift));
 
         var helper = _inputs.Where(x => desiredElevators.Exists(d => d == x.Elevador[0]));
 
-        foreach (var entry in helper)
+        foreach (var elevator in desiredElevators)
         {
-            foreach (var elevator in desiredElevators)
+            var countM = helper.Count(entry => entry.Shift == ShiftEnum.Matutino);
+            var countV = helper.Count(entry => entry.Shift == ShiftEnum.Vespertino);
+            var countN = helper.Count(entry => entry.Shift == ShiftEnum.Noturno);
+
+            // matutino
+            if (countM >= countV && countM >= countN)
             {
-                
+                // elevatorsShift.Add(elevator, ShiftEnum.Matutino);
+                result.Add('M');
+            }
+            // vespertino
+            else if (countV >= countN && countV >= countM)
+            {
+                // elevatorsShift.Add(elevator, ShiftEnum.Vespertino);
+                result.Add('V');
+            }
+            // noturno
+            else if (countN >= countM && countN >= countV)
+            {
+                // elevatorsShift.Add(elevator, ShiftEnum.Noturno);
+                result.Add('N');
             }
         }
         return result;
@@ -200,6 +217,7 @@ public class ElevatorService : IElevadorService
     public List<char> periodoMenorFluxoElevadorMenosFrequentado()
     {
         var aux = elevadorMenosFrequentado();
+        return null;
         // var helper = _shiftsUsage.Where(su => su.UsageCount <= su.UsageCount);
         // var desiredShift = helper.First();
         //
